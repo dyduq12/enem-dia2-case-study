@@ -1,0 +1,3 @@
+# Core dependencies for ENEM Dia 2 PDF mining and data pipeline
+pypdf>=5.0.0
+

@@ -1,0 +1,166 @@
+# Eduardo Borborema Source-Available & Non-Commercial License
+
+**Version 1.0 — October 15, 2026**
+
+Copyright (c) 2026 Eduardo Borborema Brito. All rights reserved.
+
+This Software is **source-available**, not open-source software.  
+This License grants a limited, revocable, non-exclusive, non-transferable,
+royalty-free right to use the Software under the conditions below.
+
+## 1. Definitions
+
+**“Software”** means the source code, compiled code, scripts, configuration files,
+documentation, assets, and associated files made available by Eduardo Borborema Brito
+in the relevant repository, excluding third-party components governed by their own
+separate licenses.
+
+**“Derivative Work”** means any work based upon, derived from, modified from, or
+incorporating any substantial part of the Software, including forks, patches,
+translations, ports, refactors, compiled distributions, and derivative source code.
+
+**“Commercial Use”** means any use, directly or indirectly, intended to obtain,
+generate, support, or enhance revenue, profit, business advantage, commercial value,
+or consideration, including:
+
+- Selling, renting, leasing, sublicensing, or charging for access to the Software;
+- Distributing the Software or a Derivative Work as part of a paid product or service;
+- Embedding the Software or a Derivative Work in commercial software, hardware,
+  games, applications, websites, or internal business systems;
+- Offering paid consulting, implementation, support, hosting, training, or
+  maintenance services based on the Software;
+- Operating the Software or a Derivative Work as a commercial SaaS, PaaS, API,
+  hosted service, or internal production system of a business;
+- Using the Software in a product or service that is monetized through
+  advertisements, sponsorships, paid subscriptions, paid features, data collection
+  for commercial purposes, or any other indirect monetization mechanism.
+
+**“Non-Commercial Use”** means personal study, learning, experimentation, private
+hobbyist use, academic research, and educational use that does not fall within
+“Commercial Use”.
+
+## 2. Granted Rights
+
+Subject to full compliance with this License, Eduardo Borborema Brito grants you a
+limited, worldwide, non-exclusive, non-transferable, royalty-free license to:
+
+- Inspect, study, compile, run, and modify the Software;
+- Create Derivative Works exclusively for Non-Commercial Use;
+- Distribute unmodified or modified copies exclusively for Non-Commercial Use,
+  provided that all conditions in this License are met.
+
+No rights are granted regarding trademarks, trade names, logos, visual identity,
+domain names, or other intellectual property of Eduardo Borborema Brito except as
+strictly necessary to identify the original author in compliance with Section 3.
+
+## 3. Attribution
+
+Any copy, redistribution, publication, or Derivative Work must:
+
+- Retain the original copyright notice;
+- Retain this License in full;
+- Clearly identify Eduardo Borborema Brito as the original author;
+- Clearly identify modifications, if the work is distributed;
+- Not imply that Eduardo Borborema Brito endorses, sponsors, or is affiliated with
+  the redistributed or derivative version.
+
+## 4. Commercial Restriction
+
+Commercial Use of the Software or any Derivative Work is strictly prohibited without
+a prior, separate, written Commercial License signed or expressly authorized by
+Eduardo Borborema Brito.
+
+A non-commercial label, free distribution, open repository, or absence of direct
+payment does not authorize Commercial Use.
+
+## 5. Share-Alike Requirement
+
+Any Derivative Work distributed or made available to third parties must be licensed
+under this exact License, without additional restrictions, unless a separate written
+Commercial License has been granted by Eduardo Borborema Brito.
+
+You may not relicense the Software or a Derivative Work under MIT, BSD, Apache-2.0,
+GPL, LGPL, AGPL, proprietary terms, or any other license without prior written
+authorization.
+
+Third-party components originally licensed under their own permissive or copyleft
+licenses remain governed by their original licenses. This License does not purport to
+relicense third-party code.
+
+## 6. Contributions
+
+By submitting a pull request, patch, issue attachment, code snippet, or other
+contribution to a repository controlled by Eduardo Borborema Brito, you grant
+Eduardo Borborema Brito a perpetual, worldwide, non-exclusive, royalty-free,
+irrevocable license to use, reproduce, modify, distribute, sublicense, and create
+derivative works from that contribution in connection with the Software, under any
+license chosen by Eduardo Borborema Brito.
+
+You represent that you have the right to submit the contribution and that it does not
+infringe third-party rights.
+
+## 7. Commercial Licensing
+
+For Commercial Use, partnership, integration, sponsorship, or enterprise licensing,
+contact the author through the official channels below:
+
+- **E-Mail:** dyduq12@gmail.com
+- **GitHub:** https://github.com/dyduq12
+
+No commercial right exists unless expressly granted in writing.
+
+## 8. Termination
+
+Your rights under this License terminate automatically and immediately if you breach
+any material condition of this License.
+
+For a curable breach limited to attribution, notice retention, or documentation
+requirements, you may have thirty (30) days from written notice to cure the breach.
+This cure period does not apply to unauthorized Commercial Use, removal of license
+notices, misrepresentation of authorship, or unlawful distribution.
+
+Upon termination, you must cease use, distribution, and commercial exploitation of
+the Software and destroy or remove all copies in your possession or control, except
+copies retained as required by applicable law.
+
+## 9. Remedies
+
+Eduardo Borborema Brito reserves all rights and remedies available under applicable
+law, including injunctive relief, takedown requests, damages, indemnification,
+restitution, recovery of lost profits, and recovery of gains obtained through
+unauthorized use, to the maximum extent permitted by applicable law.
+
+No provision of this License limits remedies that cannot be limited under mandatory
+applicable law.
+
+## 10. Governing Law and Disputes
+
+This License is governed by the laws of the Federative Republic of Brazil, without
+regard to conflict-of-laws rules.
+
+The parties shall first attempt to resolve any dispute amicably for thirty (30) days.
+If no resolution is reached, the dispute shall be submitted to the competent courts
+of the city of Parnaíba, State of Piauí, Brazil, unless the parties separately agree
+in writing to arbitration.
+
+## 11. Compliance with Law
+
+You are responsible for ensuring that your use of the Software complies with all
+applicable local, national, and international laws, including export controls,
+sanctions, privacy laws, and third-party intellectual property rights.
+
+## 12. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
+
+## 13. Severability
+
+If any provision of this License is held invalid or unenforceable, the remaining
+provisions shall remain in full force and effect, and the invalid provision shall be
+interpreted or modified to the minimum extent necessary to preserve its intent.

@@ -1,0 +1,1688 @@
+[
+  {
+    "titulo": "Parte 1: Matemática e suas Tecnologias",
+    "cor": "#2563EB",
+    "anotacao": null,
+    "filhos": [
+      {
+        "titulo": "Matemática Básica, Aritmética e Proporcionalidade",
+        "cor": "#DC2626",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Razão, Proporção e Regra de Três",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Grandezas Direta e Inversamente Proporcionais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Regra de Três Simples e Composta",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Divisão em Partes Proporcionais e Médias Ponderadas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Porcentagem e Variações Comerciais",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Fatores de Multiplicação para Aumentos e Descontos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Variações Percentuais Sucessivas e Inflação Acumulada",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Relações Comerciais: Custo, Lucro, Venda e Prejuízo",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Sistema Métrico e Conversão de Unidades",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Conversão no Sistema Métrico Decimal: Comprimento e Área",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Relações de Volume e Capacidade: 1 m³ = 1000 L e 1 dm³ = 1 L",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Conversões de Tempo (Horas, Minutos e Segundos) e Vazão",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Escalas Cartográficas e Modelagem Proporcional",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Escala Linear d/D e Distâncias Reais no Mapa",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Escala de Área (d/D)² e Escala Volumétrica (d/D)³",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Diagrama de Escalas Cartográficas e Redução Proporcional",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Estatística Básica e Descritiva",
+        "cor": "#DC2626",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Leitura e Interpretação Gráfica",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Histogramas, Gráficos de Colunas e Barras Múltiplas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Gráficos de Setores (Pizza) e Diagramas de Linhas Temporais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Tabelas de Frequência Absoluta, Relativa e Acumulada",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Medidas de Tendência Central",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Média Aritmética Simples e Média Ponderada",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Mediana: Ordenação Prévia em Rol e Casos Par/Ímpar",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Moda: Frequência Máxima e Séries Multimodais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 4
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Medidas de Dispersão e Variabilidade",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Amplitude Total e Desvio Médio Absoluto",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Variância e Desvio-Padrão: Medição de Regularidade e Homogeneidade",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Geometria Plana",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Triângulos e Relações Métricas",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Teorema de Pitágoras e Ternas Pitagóricas Clássicas (3-4-5)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Semelhança de Triângulos e Teorema de Tales",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Cálculo de Áreas: Base*Altura/2, Triângulo Equilátero e Fórmula de Heron",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Quadriláteros e Polígonos Regulares",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Áreas de Quadriláteros Notáveis: Trapézio, Paralelogramo e Losango",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Polígonos Regulares, Soma dos Ângulos Internos e Decomposição",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Circunferência e Círculo",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Comprimento da Circunferência (C = 2πr) e Número de Voltas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Área do Círculo, Setor Circular e Coroa Circular",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Propriedades de Inscrição e Circunscrição de Polígonos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Funções, Álgebra e Equações",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Função Afim (1º Grau)",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Lei f(x) = ax + b: Taxa Instantânea de Variação e Coeficiente Linear",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Interpretação Gráfica da Reta: Custo Fixo vs Custo Variável",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Equações e Sistemas Lineares com Interpretação Geométrica",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Função Quadrática (2º Grau)",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Lei f(x) = ax² + bx + c: Raízes, Discriminante e Concavidade",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Vértice da Parábola: xv = -b/2a (Ponto Crítico) e yv = -Δ/4a (Valor Máximo/Mínimo)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Gráficos de Parábolas e Trajetórias Balísticas de Projéteis",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Modelos Exponenciais e Logarítmicos",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Crescimento e Decaimento Exponencial: Modelo Populacional e Depreciação",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Logaritmos Aplicados: Propriedades Operatórias e Mudança de Base",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Escalas Logarítmicas do Cotidiano: Richter, Escala de pH e Decibéis",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Geometria Espacial",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Prismas e Poliedros",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Paralelepípedo e Cubo: Diagonais, Área Total e Volume (V = a*b*c)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Prismas Retos Regulares: Bases Triangulares, Quadradas e Hexagonais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Corpos Redondos",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Cilindro Reto: Planificação Lateral e Volume (V = π * r² * h)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Cone Reto e Tronco de Cone: Geratriz, Relação Pitagórica e Volume (V = 1/3 * π * r² * h)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Esfera: Área Superficial (4πr²) e Volume Esférico (4/3 * π * r³)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Percepção Espacial e Projeção Ortogonal",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Vistas Ortogonais: Visão Frontal, Superior e Lateral Esquerda",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Planificação e Montagem de Sólidos Poliédricos e Redondos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Projeção Ortogonal de Trajetórias e Sombras sobre Planos Horizontais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titulo": "Parte 2: Física",
+    "cor": "#DC2626",
+    "anotacao": null,
+    "filhos": [
+      {
+        "titulo": "Mecânica Clássica (Cinemática, Dinâmica e Energia)",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Cinemática Escalar e Vetorial",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Movimento Uniforme (MU): Função Horária s = s0 + v*t",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Movimento Uniformemente Variado (MUV): Fórmulas e Equação de Torricelli",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Interpretação Gráfica: Área em v x t (Deslocamento) e Tangente (Aceleração)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Movimento Circular Uniforme (MCU): Frequência, Período e Velocidade Angular",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Dinâmica Newtoniana e Aplicações",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Leis de Newton e Decomposição de Forças no Plano Inclinado",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Força de Atrito Estático e Cinético e Lei de Hooke (Força Elástica)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Resultante Centrípeta em Curvas Planas, Sobreelevadas e Globos da Morte",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Trabalho, Potência e Conservação de Energia",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Trabalho Mecânico: W = F * d * cos θ e Interpretação Gráfica F x d",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Conservação da Energia Mecânica: Cinética, Gravitacional e Elástica",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Dissipação Térmica por Forças Não Conservativas e Rendimento Mecânico",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Impulso e Quantidade de Movimento",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Teorema do Impulso: I = F * Δt = ΔQ e Dispositivos de Amortecimento",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Conservação da Quantidade de Movimento em Colisões Elásticas e Inelásticas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Eletrodinâmica e Circuitos Elétricos",
+        "cor": "#DC2626",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Grandezas Fundamentais e Resistividade",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Corrente Elétrica (i = ΔQ/Δt) e Diferença de Potencial Elétrico (U)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "1ª Lei de Ohm (U = R * i) e Curva Característica de Condutores Ôhmicos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "2ª Lei de Ohm: Resistividade, Comprimento e Área Transversal (R = ρL/A)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Associação de Resistores e Circuitos CC",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Associação em Série: Corrente Única Constante e Soma das Quedas de Tensão",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Associação em Paralelo: DDP Idêntica e Divisão de Correntes Inversamente às Resistências",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Esquematização de Circuitos Elétricos Mistos e Detecção de Curtos-Circuitos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Potência, Consumo Residencial e Segurança",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Expressões de Potência Dissipada: P = U*i = R*i² = U²/R",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Consumo de Energia Residencial: E = P * Δt em kWh e Cálculo da Fatura de Energia",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Dispositivos de Proteção Elétrica: Chave Disjuntora, Fusíveis e Aterramento",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Termologia, Calorimetria e Termodinâmica",
+        "cor": "#DC2626",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Calorimetria e Transições de Fase",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Calor Sensível e Capacidade Térmica: Equação Fundamental Q = m * c * ΔT",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Calor Latente e Mudança de Estado Físico: Q = m * L",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Curva de Aquecimento/Resfriamento e Patamares Térmicos de Mudança de Fase",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Balanço Térmico em Calorímetros Isolados: Somatório dos Calores ΣQ = 0",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Processos de Transmissão de Calor",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Condução Térmica: Lei de Fourier, Condutibilidade em Sólidos e Isolantes",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Convecção Térmica em Fluidos: Correntes de Convecção, Brisas e Inversão Térmica",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Irradiação Térmica: Ondas Eletromagnéticas no Vácuo, Efeito Estufa e Emissividade",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Termodinâmica e Máquinas Térmicas",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "1ª Lei da Termodinâmica: Conservação de Energia (ΔU = Q - W)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Transformações Gasosas: Diagramas P x V para Isobárica, Isocórica, Isotérmica e Adiabática",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "2ª Lei da Termodinâmica e Ciclo de Carnot: Limite Máximo de Rendimento Teórico",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Ondulatória e Acústica",
+        "cor": "#DC2626",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Fundamentos da Propagação Ondulatória",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Classificação: Ondas Mecânicas vs Eletromagnéticas, Transversais vs Longitudinais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Equação Fundamental da Onda: v = λ * f (Velocidade Dependente do Meio)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Espectro Eletromagnético Completo: Ondas de Rádio aos Raios Gama",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Fenômenos Ondulatórios Clássicos",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Reflexão e Refração de Ondas: Conservação da Frequência na Mudança de Meio",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Difração: Capacidade de Contornar Obstáculos e Fendas Proporcionais a λ",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Interferência Construtiva/Destrutiva e Polarização de Ondas Transversais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Acústica e Fenômenos Sonoros",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Qualidades Fisiológicas do Som: Altura (Frequência), Intensidade (Amplitude) e Timbre",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Ressonância Sonora e Mecânica: Amplificação por Coincidência de Frequências",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Efeito Doppler: Variação Aparente da Frequência Percebida em Fontes Sonoras Móveis",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titulo": "Parte 3: Biologia",
+    "cor": "#059669",
+    "anotacao": null,
+    "filhos": [
+      {
+        "titulo": "Genética e Biologia Molecular",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Genética Mendeliana e Heredogramas",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "1ª Lei de Mendel: Princípio da Segregação dos Fatores e Monohibridismo",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "2ª Lei de Mendel: Segregação Independente de Dois ou Mais Pares de Genes",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Simbologia de Heredogramas e Determinação de Padrões Autossômicos e Sexuais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Grupos Sanguíneos e Herança Sexual",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Sistema ABO: Alelos Múltiplos (IA, IB, i), Codominância e Doações Compatíveis",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Sistema Rh e Eritroblastose Fetal: Mecanismo de Sensibilização Materna",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Herança Ligada ao Cromossomo X: Daltonismo e Hemofilia em Homens e Mulheres",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Dogma Central da Biologia Molecular",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Estrutura do DNA em Dupla-Hélice, Pontes de Hidrogênio e Replicação Semiconservativa",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Transcrição Gênica: Maturação de RNA Mensageiro por RNA-Polimerase",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Tradução Ribossômica: Universalidade e Redundância do Código Genético (Códons)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Biotecnologia e Engenharia Genética",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Tecnologia do DNA Recombinante",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Enzimas de Restrição ('Endonucleases') e Ligases na Edição Molecular",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Vetor Plasmídico Bacteriano e Produção Biotecnológica de Insulina Humana",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Organismos Geneticamente Modificados (OGMs)",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Transgênicos vs Cisgênicos: Incorporação Estável e Transcrição de Genes Heterólogos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Aplicações na Agricultura: Resistência a Herbicidas e Pragas (Linhagens Bt)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Métodos Diagnósticos e Edição de Precisão",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "PCR (Reação em Cadeia da Polimerase): Desnaturação, Anelamento e Extensão Térmica",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Eletroforese em Gel de Agarose e Tipagem por DNA Fingerprinting",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Edição Genômica de Precisão por CRISPR-Cas9 e Terapias Gênicas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Vacinas Avançadas: Plataformas de RNA Mensageiro e Vetores Virais Não Replicantes",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Fisiologia Humana e Imunologia",
+        "cor": "#DC2626",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Imunologia e Defesa do Organismo",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Vacina: Imunização Ativa, Preventiva, Estímulo a Linfócitos e Memória Imune",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Soro Heterólogo: Imunização Passiva, Curativa Emergencial e Neutralização Imediata",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Curva Cinética de Resposta Imune: Comparação entre Resposta Primária e Secundária",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Sistema Cardiovascular e Trocas Gasosas",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Circulação Cardíaca Dupla e Completa: Pequena Circulação e Grande Circulação Sistêmica",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Hematose Alveolar e Transporte de Gases: Oxi-hemoglobina e Íon Bicarbonato Plasmático",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Controle Fisiológico da Pressão Arterial e Sistema Renina-Angiotensina",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Sistemas Digestório, Renal e Endócrino",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Digestão Química Enzimática em Diferentes Faixas de pH (Boca, Estômago e Intestino)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Controle Pancreático da Glicemia: Ações Antagônicas de Insulina e Glucagon",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Filtração Renal e Osmorregulação: Ação do Hormônio Antidiurético (ADH) nos Néfrons",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titulo": "Parte 4: Química",
+    "cor": "#7C3AED",
+    "anotacao": null,
+    "filhos": [
+      {
+        "titulo": "Físico-Química: Soluções e Concentrações",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Unidades de Concentração Química",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Concentração Comum (C = m_soluto / V_solucao em g/L)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Concentração Molar (M = n / V em mol/L) e Relações de Conversão",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Título em Massa (% m/m) e Partes por Milhão (ppm) em Contaminantes",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Operações Físico-Químicas com Soluções",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Diluição de Soluções: Conservação da Massa de Soluto (C1 * V1 = C2 * V2)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Mistura de Soluções de Mesmo Soluto e Concentração Resultante",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Curvas e Coeficiente de Solubilidade: Regiões Insaturada, Saturada e Supersaturada",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Análise Volumétrica e Titulometria",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Titulometria Ácido-Base: Ponto de Equivalência e Proporção Estequiométrica",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Viragem de Indicadores Ácido-Base e Determinação Experimental de Concentrações",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Química Geral: Cálculos Estequiométricos",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Leis Ponderais e Proporções Molares",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Lei de Lavoisier (Conservação das Massas) e Lei de Proust (Proporções Fixas)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Grandezas Fundamentais: Mol, Massa Molar, Volume Molar nas CNTP (22,4 L) e Constante de Avogadro",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Balanceamento Estequiométrico de Equações Químicas pelo Método das Tentativas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Casos Especiais em Estequiometria",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Identificação Analítica de Reagente Limitante e Reagente em Excesso",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Cálculos com Grau de Pureza de Reagentes em Minérios e Processos Industriais",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Rendimento Percentual Real versus Teórico em Sínteses Químicas",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Reações Consecutivas e Aplicações Industriais",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Estequiometria de Reações Sucessivas e Montagem da Equação Global",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Cálculo Estequiométrico com Gases fora das CNTP (Equação de Clapeyron: PV = nRT)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Ciências da Natureza Integradas",
+        "cor": "#D97706",
+        "anotacao": null,
+        "filhos": [
+          {
+            "titulo": "Matrizes Energéticas e Sustentabilidade",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Combustíveis Fósseis vs Biocombustíveis: Etanol, Biodiesel e Biogás",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Poder Calorífico, Eficiência de Combustão e Emissão Relativa de CO2",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Balanço Energético Comparativo e Matriz Elétrica Renovável (Solar, Eólica e Hídrica)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Ciclos Biogeoquímicos e Impactos Atmosféricos",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Ciclo do Nitrogênio Completo: Fixação, Nitrosação, Nitratação e Desnitrificação",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Ciclo do Carbono e Intensificação Antrópica do Efeito Estufa",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Formação da Chuva Ácida: Química dos Óxidos de Enxofre (SOx) e Nitrogênio (NOx)",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 5
+                },
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "titulo": "Ecotoxicologia, Poluição e Saneamento",
+            "cor": null,
+            "anotacao": null,
+            "filhos": [
+              {
+                "titulo": "Biomagnificação Trófica e Bioacumulação Lipídica de Metais Pesados e DDT",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Mecanismo da Eutrofização Artificial em Corpos Hídricos por Nutrientes Exógenos",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "ilustracao",
+                  "altura_customizada": 220
+                },
+                "filhos": []
+              },
+              {
+                "titulo": "Etapas Físico-Químicas do Tratamento em Estações de Água (ETA) e Efluentes",
+                "cor": null,
+                "anotacao": {
+                  "tipo": "pauta",
+                  "linhas_manuais": 6
+                },
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

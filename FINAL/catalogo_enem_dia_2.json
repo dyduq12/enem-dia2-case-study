@@ -1,0 +1,4333 @@
+{
+  "metadata": {
+    "total_files": 1422,
+    "unique_files": 1033,
+    "dia2_files_count": 719,
+    "corpus_size_gb": 5.56,
+    "providers_breakdown": {
+      "BERNOULLI": 281,
+      "SAS": 250,
+      "ENEM_OFICIAL": 135,
+      "POLIEDRO": 47,
+      "APEIRON": 6
+    },
+    "total_indexed_questions": 5628
+  },
+  "taxonomy_info": {
+    "M1": {
+      "name": "Matemática Básica e Proporcionalidade",
+      "inc": "34% a 38%",
+      "status": "CRUCIAL (Base da TRI)",
+      "area": "Matemática",
+      "desc": "Razão, proporção, regra de três simples e composta, porcentagem, aumentos/descontos, escalas cartográficas e conversão de unidades (litros, m³, tempo). Sustenta a coerência pedagógica da nota."
+    },
+    "M2": {
+      "name": "Geometria Espacial",
+      "inc": "11% a 13%",
+      "status": "ALTA (Diferencial)",
+      "area": "Matemática",
+      "desc": "Cálculo de volumes e áreas de prismas retos, cilindros, cones e esferas; projeção ortogonal e visualização espacial tridimensional; poliedros (Relação de Euler)."
+    },
+    "M3": {
+      "name": "Estatística Básica",
+      "inc": "10% a 12%",
+      "status": "CRUCIAL (Base da TRI)",
+      "area": "Matemática",
+      "desc": "Interpretação de gráficos (barras, colunas, setores, linhas) e tabelas; medidas de tendência central (média aritmética e ponderada, mediana, moda); dispersão (desvio padrão)."
+    },
+    "M4": {
+      "name": "Geometria Plana",
+      "inc": "8% a 10%",
+      "status": "ALTA",
+      "area": "Matemática",
+      "desc": "Cálculo de áreas (triângulos, círculos, paralelogramos, trapézios); Teorema de Pitágoras; trigonometria básica nos triângulos retângulos; semelhança de triângulos e Teorema de Tales; geometria analítica básica no plano."
+    },
+    "M5": {
+      "name": "Funções e Modelagem Algébrica",
+      "inc": "7% a 9%",
+      "status": "MÉDIA-ALTA",
+      "area": "Matemática",
+      "desc": "Função Afim (taxa de variação e valor fixo); Função Quadrática (vértice, máximos e mínimos); modelagem exponencial e propriedades fundamentais de logaritmos; sistemas lineares."
+    },
+    "M6": {
+      "name": "Probabilidade e Análise Combinatória",
+      "inc": "9% a 12%",
+      "status": "MÉDIA-ALTA (Diferencial)",
+      "area": "Matemática",
+      "desc": "Princípio Fundamental da Contagem (PFC), permutações e combinações simples; probabilidade clássica, probabilidade da união de eventos e probabilidade condicional."
+    },
+    "B1": {
+      "name": "Ecologia e Meio Ambiente",
+      "inc": "28% a 32%",
+      "status": "LÍDER ABSOLUTA HISTÓRICA",
+      "area": "Biologia",
+      "desc": "Impactos ambientais antrópicos (eutrofização, bioacumulação e magnificação trófica, aquecimento global e acidificação oceânica, desmatamento e espécies invasoras); ciclos biogeoquímicos (Nitrogênio e Carbono); fluxo de energia e teias tróficas; relações ecológicas."
+    },
+    "B2": {
+      "name": "Genética, Biologia Molecular e Biotecnologia",
+      "inc": "20% a 25%",
+      "status": "ALTA",
+      "area": "Biologia",
+      "desc": "1ª e 2ª Leis de Mendel, heredogramas, sistema ABO e Fator Rh; Biotecnologia aplicada (DNA recombinante, clonagem terapêutica/reprodutiva, transgênicos vs OGM, PCR, eletroforese e CRISPR)."
+    },
+    "B3": {
+      "name": "Citologia e Metabolismo Energético",
+      "inc": "12% a 15%",
+      "status": "ALTA",
+      "area": "Biologia",
+      "desc": "Fotossíntese (fases fotoquímica e química); respiração celular aeróbia e fermentação (láctica e alcoólica); membrana plasmática e transportes celulares (osmose, difusão e transporte ativo por bomba de Na+/K+)."
+    },
+    "B4": {
+      "name": "Fisiologia Humana e Imunologia",
+      "inc": "10% a 13%",
+      "status": "ALTA (Contextualizada)",
+      "area": "Biologia",
+      "desc": "Imunologia (Vacinas: profiláticas, antígenos atenuados, células de memória vs. Soros: curativos emergenciais, anticorpos pré-formados); Doenças e agentes etiológicos (arboviroses pelo Aedes, Chagas, Malária, Leishmaniose e uso racional de antibióticos)."
+    },
+    "F1": {
+      "name": "Eletrodinâmica e Circuitos Elétricos",
+      "inc": "21% a 24%",
+      "status": "LÍDER EM REGULARIDADE",
+      "area": "Física",
+      "desc": "Circuitos elétricos com associação de resistores em série e paralelo; potência elétrica e consumo de energia residencial em kWh (E = P.Δt / 1000); dimensionamento de fusíveis e disjuntores; instrumentos de medição (amperímetro e voltímetro)."
+    },
+    "F2": {
+      "name": "Mecânica Clássica e Hidrostática",
+      "inc": "31% a 37%",
+      "status": "LÍDER EM VOLUME",
+      "area": "Física",
+      "desc": "Conservação da energia mecânica (cinética, potencial gravitacional e elástica), dissipação por atrito e rendimento; Leis de Newton e dinâmica em planos inclinados; cinemática escalar e interpretação gráfica (área sob v x t = distância); hidrostática (pressão, Teorema de Pascal e Empuxo de Arquimedes)."
+    },
+    "F3": {
+      "name": "Ondulatória e Acústica",
+      "inc": "14% a 16%",
+      "status": "ALTA (Foco Conceitual)",
+      "area": "Física",
+      "desc": "Equação fundamental da onda (v = λ.f); fenômenos ondulatórios (refração, difração, interferência, ressonância, polarização e Efeito Doppler); qualidades fisiológicas do som (altura, intensidade e timbre); óptica geométrica básica."
+    },
+    "F4": {
+      "name": "Termologia e Termodinâmica",
+      "inc": "13% a 16%",
+      "status": "ALTA",
+      "area": "Física",
+      "desc": "Calorimetria sensível (Q = m.c.ΔT) e calor latente de mudança de estado (Q = m.L); processos de transmissão de calor (condução, convecção e irradiação); 1ª Lei da Termodinâmica (ΔU = Q - W) e 2ª Lei (máquinas térmicas e rendimento de Carnot)."
+    },
+    "Q1": {
+      "name": "Físico-Química (Eletroquímica, Termoquímica e Equilíbrio)",
+      "inc": "28% a 32%",
+      "status": "LÍDER EM CÁLCULOS E PROCESSOS",
+      "area": "Química",
+      "desc": "Eletroquímica (pilhas galvânicas, potencial de redução, ânodo/cátodo, corrosão e metal de sacrifício, eletrólise); Termoquímica (Lei de Hess, calor de formação e energias de ligação); Cinética e Equilíbrio Químico (catalisadores, energia de ativação e Princípio de Le Chatelier); Soluções (cálculo de concentração molar, g/L, ppm e diluição)."
+    },
+    "Q2": {
+      "name": "Química Geral e Estequiometria",
+      "inc": "25% a 28%",
+      "status": "BASE ESTRUTURAL",
+      "area": "Química",
+      "desc": "Cálculos estequiométricos reais com reagentes impuros (% de pureza), rendimento percentual e determinação de reagente limitante/excesso; forças intermoleculares (ligações de hidrogênio, dipolo-dipolo e London) e impacto no ponto de ebulição e solubilidade; métodos de separação de misturas (decantação, filtração, destilação simples/fracionada e flotação)."
+    },
+    "Q3": {
+      "name": "Química Orgânica",
+      "inc": "19% a 23%",
+      "status": "ALTA REGULARIDADE",
+      "area": "Química",
+      "desc": "Reconhecimento de funções orgânicas (álcoois, fenóis, aldeídos, cetonas, ácidos carboxílicos, ésteres, aminas, amidas); polaridade e propriedades físicas (hidrofílico vs lipofílico, tensoativos/sabões); isomeria plana e espacial (geométrica cis-trans e óptica/carbono quiral); reações orgânicas e polímeros (esterificação/biodiesel, saponificação, polímeros de adição e condensação)."
+    },
+    "Q4": {
+      "name": "Química Ambiental",
+      "inc": "10% a 13%",
+      "status": "ALTA (Contextualizada)",
+      "area": "Química",
+      "desc": "Gases do efeito estufa e fontes de emissão; óxidos ácidos e formação de chuva ácida (SO2, SO3, NOx); destruição da camada de ozônio pelos CFCs; tratamento químico de água e esgoto em ETA/ETE (coagulação/floculação com sulfato de alumínio, decantação e cloração)."
+    }
+  },
+  "topic_questions_count": {
+    "M1": 2288,
+    "M2": 138,
+    "M3": 149,
+    "M4": 83,
+    "M5": 95,
+    "M6": 58,
+    "B1": 1279,
+    "B2": 228,
+    "B3": 89,
+    "B4": 128,
+    "F1": 64,
+    "F2": 143,
+    "F3": 142,
+    "F4": 150,
+    "Q1": 199,
+    "Q2": 207,
+    "Q3": 167,
+    "Q4": 21
+  },
+  "curated_multi_banca_index": {
+    "M1": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 136,
+        "gabarito": "A",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Calcular a capacidade mínima de um recipiente de acordo com a vaz...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 139,
+        "gabarito": "C",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Determinar a escala de um mapa a partir da escala de sua versão a...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 140,
+        "gabarito": "D",
+        "tematica": "Sequências numéricas",
+        "objeto": "Progressões aritméticas (Reconhecer a sequência dos investimentos em educação de um municí...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 143,
+        "gabarito": "B",
+        "tematica": "Potenciação",
+        "objeto": "Propriedades (Efetuar a conversão de unidades de medida de comprimento para com...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 144,
+        "gabarito": "A",
+        "tematica": "Grandezas",
+        "objeto": "Grandezas direta e inversamente proporcionais (Identificar as relações de proporcionaidade entre grandezas para ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 146,
+        "gabarito": "B",
+        "tematica": "Grandezas",
+        "objeto": "Medidas de massa (Identificar em um quadro de medidas o equivalente em massa de uma...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 147,
+        "gabarito": "B",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Determinar a razão entre as receitas obtidas com a venda de ingre...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 153,
+        "gabarito": "D",
+        "tematica": "Grandezas",
+        "objeto": "Porcentagem (Utilizar os dados de um gráfico para calcular a porcentagem dos p...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 155,
+        "gabarito": "E",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Analisar os dados de um quadro para determinar o dia da semana em...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 156,
+        "gabarito": "C",
+        "tematica": "Potenciação",
+        "objeto": "Notação científica (Converter a unidade de medida de comprimento de uma distância per...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 158,
+        "gabarito": "C",
+        "tematica": "Grandezas",
+        "objeto": "Regra de três composta (Empregar a regra de três composta para obter o número de particip...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 164,
+        "gabarito": "E",
+        "tematica": "Grandezas",
+        "objeto": "Medidas de volume (Analisar graficamente como se dá a varição do raio e da altura de...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 165,
+        "gabarito": "C",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Calcular a razão entre o preço de mercadorias e as respectivas no...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 167,
+        "gabarito": "E",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Empregar o conceito de razão para relacionar os dados de um quadr...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 168,
+        "gabarito": "C",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Calcular a escala de redução utilizada na construção de uma maque...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 173,
+        "gabarito": "D",
+        "tematica": "Aritmética",
+        "objeto": "Operações (adição, subtração, multiplicação, divisão e potenciação) (Aplicar o algoritmo da divisão euclidiana para determinar o dígit...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 174,
+        "gabarito": "D",
+        "tematica": "Grandezas",
+        "objeto": "Porcentagem (Analisar um gráfico para calcular a redução percentual no quadro ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 176,
+        "gabarito": "A",
+        "tematica": "Grandezas",
+        "objeto": "Medidas de comprimento (Fazer a conversão das unidades de medida de comprimento para as d...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 180,
+        "gabarito": "E",
+        "tematica": "Conjuntos",
+        "objeto": "Produto cartesiano (Aplicar o conceito de produto cartesiano para determinar o número...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 136,
+        "gabarito": "B",
+        "tematica": "Potenciação",
+        "objeto": "Notação científica (Fazer a conversão entre unidades de medida para expressar uma dis...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 138,
+        "gabarito": "E",
+        "tematica": "Grandezas",
+        "objeto": "Porcentagem (Calcular o o novo valor de uma mensalidade com base no reajuste p...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 140,
+        "gabarito": "A",
+        "tematica": "Grandezas",
+        "objeto": "Grandezas direta e inversamente proporcionais (Determinar a expressão algébrica que relaciona duas grandezas dir...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 142,
+        "gabarito": "C",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Calcular a razão entre o número de pastilhas de cores disferentes...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 145,
+        "gabarito": "C",
+        "tematica": "Grandezas",
+        "objeto": "Porcentagem (Interpretar um gráfico para determinar a que percentual do total ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 148,
+        "gabarito": "D",
+        "tematica": "Grandezas",
+        "objeto": "Razões e proporções (Calcular a precipitação normal de um período para determinada loc...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "M2": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 151,
+        "gabarito": "A",
+        "tematica": "Geometria espacial",
+        "objeto": "Sólidos de revolução (Reconhecer os sólidos de revolução que compõem a estrutura de um ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 152,
+        "gabarito": "E",
+        "tematica": "Geometria espacial",
+        "objeto": "Planificação (Avaliar a planificação que corresponde ao dado ilustrado, de acor...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 163,
+        "gabarito": "D",
+        "tematica": "Geometria espacial",
+        "objeto": "Cilindros (Calcular a capacidade de um tipo de recipiente cilíndrico para an...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 139,
+        "gabarito": "C",
+        "tematica": "Geometria espacial",
+        "objeto": "Prismas (Nomear o poliedro que representa a forma de um monumento....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 147,
+        "gabarito": "E",
+        "tematica": "Geometria espacial",
+        "objeto": "Projeções (Analisar figura tridimensional para identificar a imagem que repr...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 151,
+        "gabarito": "C",
+        "tematica": "Geometria espacial",
+        "objeto": "Cilindros (Relacionar o volume de um produto com o de seu recipiente para de...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 159,
+        "gabarito": "D",
+        "tematica": "Geometria espacial",
+        "objeto": "Cilindros (Calcular a superfície lateral de um cilindro reto para estimar a ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 171,
+        "gabarito": "A",
+        "tematica": "Geometria espacial",
+        "objeto": "Projeções (Obter a projeção ortogonal do movimento realizado por uma formiga...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 175,
+        "gabarito": "E",
+        "tematica": "Geometria espacial",
+        "objeto": "Planificação (Relacionar os valores das faces de um dado por meio de sua planif...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 179,
+        "gabarito": "E",
+        "tematica": "Geometria espacial",
+        "objeto": "Sólidos de revolução (Comparar a área interna de dois corpos redondos distintos....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 136,
+        "gabarito": "C",
+        "tematica": "Geometria espacial",
+        "objeto": "Planificação (Determinar o número de vértices de um sólido a partir de sua plan...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 138,
+        "gabarito": "D",
+        "tematica": "Geometria espacial",
+        "objeto": "Projeções (Determinar a projeção ortogonal da fiação elétrica de uma sala so...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 146,
+        "gabarito": "A",
+        "tematica": "Geometria Espacial",
+        "objeto": "Cones (Calcular a altura de um chapéu oriental cônico....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 152,
+        "gabarito": "A",
+        "tematica": "Geometria Espacial",
+        "objeto": "Vistas ortogonais (Identificar a figura que representa a vista ortogonal do corte fe...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 154,
+        "gabarito": "D",
+        "tematica": "Geometria Espacial",
+        "objeto": "Superfície Poliédrica e Poliedros (Comparar as áreas superficiais de paralelepípedos....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 157,
+        "gabarito": "D",
+        "tematica": "Geometria espacial",
+        "objeto": "Cilindros (Calcular o diâmetro de uma fôrma de bolo cilíndrica....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 160,
+        "gabarito": "C",
+        "tematica": "Geometria espacial",
+        "objeto": "Pirâmides: volume (Calcular o percentual de um paralelepípedo de madeira que resta a...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 143,
+        "gabarito": "B",
+        "tematica": "Geometria espacial",
+        "objeto": "Projeções (Identifcar a marca que um bolo em forma de estrela deixa em um pa...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 147,
+        "gabarito": "A",
+        "tematica": "Geometria espacial",
+        "objeto": "Cones (Calcular a área da secção transversal de um cone utilizado em um ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 157,
+        "gabarito": "C",
+        "tematica": "Geometria espacial",
+        "objeto": "Cilindros (Comparar as áreas externas de duas latas cilíndricas....)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 163,
+        "gabarito": "A",
+        "tematica": "Geometria Espacial",
+        "objeto": "Vistas ortogonais (Identificar a representação correta para a vista superior de um p...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 167,
+        "gabarito": "B",
+        "tematica": "Geometria Espacial",
+        "objeto": "Pirâmides (Calcular a altura de um monumento....)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 173,
+        "gabarito": "E",
+        "tematica": "Geometria espacial",
+        "objeto": "Troncos (Calcular a capacidade máxima de uma caixa d'água em forma de tron...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 178,
+        "gabarito": "E",
+        "tematica": "Geometria espacial",
+        "objeto": "Planificação (Identificar a planificação correta do octaedro representado tridi...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 146,
+        "gabarito": "D",
+        "objeto": "A questão trata da montagem de um gráfico que relaciona a altura da coluna da ág...",
+        "tematica": "Geometria Espacial",
+        "topic_code": "M2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      }
+    ],
+    "M3": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 141,
+        "gabarito": "A",
+        "tematica": "Estatística",
+        "objeto": "Tabelas (Comparar os dados de um gráfico com as informações contidas em um...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 149,
+        "gabarito": "C",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular, com auxílio do conceito de média aritmética, o número m...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 157,
+        "gabarito": "A",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Relacionar os dados de um gráfico e de uma tabela para determinar...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 170,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Analisar os dados sobre taxa de desemprego apresentados em um qua...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 150,
+        "gabarito": "E",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Determinar o jogador contratado por um clube esportivo com base n...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 156,
+        "gabarito": "C",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular a mediana de um conjunto de dados organizados em um gráf...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 162,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Gráfico de colunas (Interpretar a frequência dos dados em um gráfico de colunas para ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 168,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Determinar a moda de um conjunto de dados relativos aos lucros ob...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 174,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Aplicar o conceito de média aritmética ponderada no cálculo da nu...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 139,
+        "gabarito": "E",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Analisar gráfico estatístico para identificar a categoria de dado...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 148,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular a menor nota que um aluno deve tirar em uma prova de rec...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 151,
+        "gabarito": "C",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Determianr a mediana dos dados coletados em um restaurante....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 158,
+        "gabarito": "A",
+        "tematica": "Estatística",
+        "objeto": "Gráfico de colunas (Comparar as arrecadações mensais de diferentes cursos com base em...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 170,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular a médias de pontos das dez melhores equipes em um tornei...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 142,
+        "gabarito": "C",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular o tempo médio, por pessoa, que os alunos de uma escola d...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 148,
+        "gabarito": "E",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular a soma das idades de dois jogadores de futsal com base n...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 156,
+        "gabarito": "D",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Calcular o número de casos de dengue em uma região com base em um...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 177,
+        "gabarito": "C",
+        "tematica": "Estatística",
+        "objeto": "Medidas de tendência central (Utilizar a mediana para obter o número de participantes em uma da...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 137,
+        "gabarito": "E",
+        "objeto": "É necessário calcular as respectivas médias da intensidade vocal de cada candida...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 153,
+        "gabarito": "B",
+        "objeto": "Passo a Passo:     1)Primeira dobra (horizontal):  A folha retangular ABCD é dob...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 166,
+        "gabarito": "E",
+        "objeto": "Questão sobre média.   Passo a passo:  1º Passo:  Analisar os dados:  Temos uma...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 172,
+        "gabarito": "E",
+        "objeto": "a) (F) Possivelmente, calculou-se a média da profundidade dos sulcos dos pneus da tra...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 137,
+        "gabarito": "D",
+        "objeto": "a) (F) Possivelmente, o aluno calculou a média desconsiderando o valor atual da mensa...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 154,
+        "gabarito": "A",
+        "objeto": "a) (V) Calculando-se a média aritmética entre as variações anuais do PIB observadas n...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 154,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, o aluno calculou a média das medidas AB e CD; além disso, calcu...",
+        "tematica": "Estatística Básica",
+        "topic_code": "M3",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      }
+    ],
+    "M4": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 145,
+        "gabarito": "D",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Reconhecer a semelhança entre os triângulos inseridos em uma comp...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 148,
+        "gabarito": "E",
+        "tematica": "Geometria plana",
+        "objeto": "Teorema dos cossenos (Compreender o método de medição topográfica para que, por meio do...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 160,
+        "gabarito": "B",
+        "tematica": "Geometria analítica",
+        "objeto": "Coordenadas no plano (Interpretar o deslocamento de uma esfera sobre o plano cartesiano...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 161,
+        "gabarito": "C",
+        "tematica": "Geometria analítica",
+        "objeto": "Distância entre dois pontos (Calcular as distâncias entre pares de pontos no plano cartesiano,...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 166,
+        "gabarito": "D",
+        "tematica": "Geometria plana",
+        "objeto": "Teorema de Tales (Utilizar o teorema de Tales como recurso para a obtenção de uma m...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 169,
+        "gabarito": "C",
+        "tematica": "Geometria plana",
+        "objeto": "Ângulos no círculo. Arco capaz (Interpretar figura geométrica com base nas informações do enuncia...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 172,
+        "gabarito": "B",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Estimar a área ocupada por losangos em um mosaico....)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 177,
+        "gabarito": "C",
+        "tematica": "Geometria analítica",
+        "objeto": "Distância entre dois pontos (Aplicar o teorema de Pitágoras para determinar a menor distância ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 179,
+        "gabarito": "B",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Relacionar as dimensões de um painel retangular para a obtenção d...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 143,
+        "gabarito": "B",
+        "tematica": "Geometria plana",
+        "objeto": "Ângulos no círculo. Arco capaz (Estimar o perímetro de uma figura geométrica composta de arcos de...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 155,
+        "gabarito": "B",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Determinar a escala de um projeto para calcular uma das áreas ne ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 163,
+        "gabarito": "B",
+        "tematica": "Geometria analítica",
+        "objeto": "Coordenadas no plano (Compreender a descrição da regra de um jogo para identificar o ma...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 167,
+        "gabarito": "A",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Calcular as áreas de duas embalagens com base em suas respectivas...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 142,
+        "gabarito": "C",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Utilizar cálculos de áreas para determinar o percentual de matéri...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 156,
+        "gabarito": "C",
+        "tematica": "Geometria plana",
+        "objeto": "Área de figuras planas (Comparar as áreas de lotes com diferentes formatos geométricos....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 171,
+        "gabarito": "C",
+        "tematica": "Geometria plana",
+        "objeto": "Ângulos no círculo. Arco capaz. (Calcular o diâmetro de uma pizza com base em informações sobre as...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 138,
+        "gabarito": "D",
+        "tematica": "Geometria plana",
+        "objeto": "Teorema de Pitágoras (Obter a largura de uma porta com base nas dimensões dos degraus a...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 144,
+        "gabarito": "C",
+        "tematica": "Geometria plana",
+        "objeto": "Teorema dos senos (Calcular o comprimento de uma estrutura utilizada na construção d...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 147,
+        "gabarito": "A",
+        "tematica": "Geometria Plana",
+        "objeto": "Área de figuras planas (Determinar a área de uma varanda com base na planta de um quarto....)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 150,
+        "gabarito": "D",
+        "tematica": "Geometria analítica",
+        "objeto": "Coordenadas no plano (Determinar os comandos que solucionam certo jogo baseado em um pl...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 158,
+        "gabarito": "D",
+        "tematica": "Geometria Plana",
+        "objeto": "Segmentos proporcionais (Calcular a área de um salão destinada às mesas para os convidados...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 163,
+        "gabarito": "D",
+        "tematica": "Geometria plana",
+        "objeto": "Teorema de Pitágoras (Comparar as áreas de passeio em cinco projetos de construção de u...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 165,
+        "gabarito": "C",
+        "tematica": "Geometria Plana",
+        "objeto": "Área de figuras planas (Calcular a redução necessária na área de uma chapa metálica quadr...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 169,
+        "gabarito": "E",
+        "tematica": "Geometria plana",
+        "objeto": "Transformações Geométricas (Identificar as transformações isométricas que relacionam dois par...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 175,
+        "gabarito": "A",
+        "tematica": "Geometria plana",
+        "objeto": "Teorema dos cossenos (Determinar o comprimento de uma das cercas de um pasto....)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "M5": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 137,
+        "gabarito": "C",
+        "tematica": "Funções",
+        "objeto": "Gráficos (Identificar os pontos de um gráfico que se encontram acima de um ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 138,
+        "gabarito": "B",
+        "tematica": "Funções",
+        "objeto": "Quadráticas (Substituir os valores das coordenadas de um determinado ponto do ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 142,
+        "gabarito": "B",
+        "tematica": "Funções",
+        "objeto": "Afins (Modelar algebricamente as sentenças que definem a função relacion...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 150,
+        "gabarito": "D",
+        "tematica": "Funções",
+        "objeto": "Quadráticas (Analisar os dados de um gráfico parabólico para expressar algebri...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 154,
+        "gabarito": "C",
+        "tematica": "Funções",
+        "objeto": "Afins (Interpretar os dados do gráfico de uma função afim para determina...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 159,
+        "gabarito": "D",
+        "tematica": "Funções",
+        "objeto": "Exponenciais (Aplicar conceitos de função exponencial para calcular o increment...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 162,
+        "gabarito": "D",
+        "tematica": "Funções",
+        "objeto": "Afins (Aplicar conceitos relacionados a funções afins para analisar o pl...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 175,
+        "gabarito": "A",
+        "tematica": "Funções",
+        "objeto": "Quadráticas (Interpretar enunciado para obter a representação algébrica de uma...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 178,
+        "gabarito": "A",
+        "tematica": "Funções",
+        "objeto": "Afins (Analisar os dados expressos em um quadro para obter a expressão a...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 137,
+        "gabarito": "A",
+        "tematica": "Funções",
+        "objeto": "Gráficos (Reconhecer em um gráfico o maior período sem registro de queda do...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 141,
+        "gabarito": "D",
+        "tematica": "Funções",
+        "objeto": "Afins (Determinar a expressão algébrica da função afim que fornece o sal...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 144,
+        "gabarito": "C",
+        "tematica": "Sistemas Lineares",
+        "objeto": "Escalonamento de um sistema (Calcular o custo da compra de um material por meio da resolução d...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 153,
+        "gabarito": "E",
+        "tematica": "Funções",
+        "objeto": "Gráficos (Interpretar dados constantes de um gráfico para determinar o dia ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 157,
+        "gabarito": "B",
+        "tematica": "Funções",
+        "objeto": "Quadráticas (Calcular a abscissa do vértice de uma parábola com base na função...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 161,
+        "gabarito": "A",
+        "tematica": "Funções",
+        "objeto": "Afins (Determinar a expressão algébrica de uma função afim que relaciona...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 169,
+        "gabarito": "B",
+        "tematica": "Funções",
+        "objeto": "Afins (Utilizar os gráficos de duas funções afins para calcular o número...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 173,
+        "gabarito": "A",
+        "tematica": "Funções",
+        "objeto": "Afins (Identificar o gráfico de volume (L) por tempo (min) que melhor re...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 137,
+        "gabarito": "E",
+        "tematica": "Funções",
+        "objeto": "Gráficos (Interpretar gráficos sobre o quantidade de vendas de produtos em ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 141,
+        "gabarito": "D",
+        "tematica": "Funções",
+        "objeto": "Quadráticas (Determinar os dois jogadores escolhidos em uma \"peneira\" com base...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 161,
+        "gabarito": "D",
+        "tematica": "Funções",
+        "objeto": "Quadráticas (Fazer a correspondência entre as parábolas inseridas em um sistem...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 167,
+        "gabarito": "C",
+        "tematica": "Funções",
+        "objeto": "Afins (Determinar a expressão que fornece o valor a ser pago em um estac...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 169,
+        "gabarito": "E",
+        "tematica": "Trigonometria",
+        "objeto": "Função seno, Função cosseno, Função tangente (Obter os parâmetros que definem a expressão de uma função seno co...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 172,
+        "gabarito": "E",
+        "tematica": "Funções",
+        "objeto": "Afins (Obter a expressão que relaciona o valor de uma compra com o númer...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 173,
+        "gabarito": "C",
+        "tematica": "Funções",
+        "objeto": "Raiz (Analisar gráfico para determinar quantas raízes ele apresenta....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 174,
+        "gabarito": "C",
+        "tematica": "Funções",
+        "objeto": "Plano cartesiano (Relacionar as coordenadas de pontos no plano cartesiano para comp...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "M6": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 171,
+        "gabarito": "C",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da intersecção de eventos (Calcular o número mínimo de picolés que precisam ser comprados pa...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 146,
+        "gabarito": "D",
+        "tematica": "Análise combinatória",
+        "objeto": "Arranjos simples (Calcular o número de arranjos distintos em que um atleta termina ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 149,
+        "gabarito": "C",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da união de eventos (Calcular a probabilidade de que certo medicamento seja contraindi...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 165,
+        "gabarito": "A",
+        "tematica": "Análise combinatória",
+        "objeto": "Combinações simples (Calcular o número de combinações possíveis com as quais três cons...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 177,
+        "gabarito": "D",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da intersecção de eventos (Calcular o número mínimo de dados lançados em um jogo que garante...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 143,
+        "gabarito": "A",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da intersecção de eventos (Calcular a probabilidade de um evento em que três mulheres ficam ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 163,
+        "gabarito": "E",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da união de eventos (Calcular a probabilidade de um evento em que frutas aleatoriament...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 175,
+        "gabarito": "A",
+        "tematica": "Análise combinatória",
+        "objeto": "Combinações simples (Determinar uqantos grupos distintos de pessoas podem se sentar na...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 179,
+        "gabarito": "A",
+        "tematica": "Análise combinatória",
+        "objeto": "Combinações simples (Relacionar o número de comissões distintas que podem ser formadas...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 150,
+        "gabarito": "B",
+        "tematica": "Análise combinatória",
+        "objeto": "Princípio fundamental de contagem (Calcular o número de agências dos Correios do RS com CEPs que ini...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 165,
+        "gabarito": "A",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da intersecção de eventos (Calcular a probabilidade de falha simultânea em três sistemas ope...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 170,
+        "gabarito": "B",
+        "tematica": "Análise combinatória",
+        "objeto": "Combinações simples (Calcular o número de buquês distintos que podem ser formados com ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 180,
+        "gabarito": "E",
+        "tematica": "Probabilidade",
+        "objeto": "Probabilidade da união de eventos (Calcular a probabilidade de título para a equipe favorita em uma ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 144,
+        "gabarito": "B",
+        "objeto": "A questão consiste em uma aplicação de permutação dos 6 designes , denotado pela...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 157,
+        "gabarito": "D",
+        "objeto": "Passo a Passo:     1. Contexto da disputa:  o Melhor de 5 partidas (vencedor é o...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 160,
+        "gabarito": "A",
+        "objeto": "Passo a Passo:     1. Compreensão do problema:  • Total de bolas: N=9 (numeradas...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 163,
+        "gabarito": "D",
+        "objeto": "A questão envolve diagrama de venn e probabilidade condicional.    Passo a Passo...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 165,
+        "gabarito": "E",
+        "objeto": "Essa questão envolve conhecimento de permutação caótica em que é preciso posicio...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 106,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, admitiu-se apenas a probabilidade de a criança ser do sexo femi...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 152,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, o aluno calculou as permutações dos jogos, encontrando 60 manei...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 179,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, o aluno não compreendeu que deveria calcular as probabilidades ...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 168,
+        "gabarito": "D",
+        "objeto": "a) (F) Possivelmente, o aluno considerou que o pódio é formado por 3 atletas e que os...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 122,
+        "gabarito": "B",
+        "objeto": "a) (F) Possivelmente, considerou‑se a probabilidade de o indivíduo 14 ser macho e hom...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 156,
+        "gabarito": "D",
+        "objeto": "a) (F) Possivelmente, considerou-se que a probabilidade de uma pessoa não ter o hábit...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 170,
+        "gabarito": "E",
+        "objeto": "a) (F) Possivelmente, foi calculada a probabilidade de as duas seleções caírem no gru...",
+        "tematica": "Probabilidade e Análise Combinatória",
+        "topic_code": "M6",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      }
+    ],
+    "B1": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 93,
+        "gabarito": "A",
+        "tematica": "Ecologia",
+        "objeto": "Ciclos biogeoquímicos (Analisar a importância das leguminosas no ciclo do nitrogênio....)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 99,
+        "gabarito": "D",
+        "tematica": "Ecologia",
+        "objeto": "Efeito estufa (Analisar as consequências da emissão excessiva de gás metano na a...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 118,
+        "gabarito": "A",
+        "tematica": "Ecologia",
+        "objeto": "Biomas (Selecionar características importante da vegetação da Caatinga qu...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 122,
+        "gabarito": "D",
+        "tematica": "Ecologia",
+        "objeto": "Magnificação trófica (Reconhecer como fica a concentração de mercúrio em uma cadeia ali...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 124,
+        "gabarito": "A",
+        "tematica": "Ecologia",
+        "objeto": "Relações ecológicas (Analisar um gráfico para identificar como a população de dois org...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 129,
+        "gabarito": "C",
+        "tematica": "Evolução",
+        "objeto": "Fatores evolutivos (Explicar o surgimento das superbactérias considerando fatores evo...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 131,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Recuperação de ecossistemas (Reconhecer uma ação de reutilizar (3 Rs)....)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 132,
+        "gabarito": "A",
+        "tematica": "Ecologia",
+        "objeto": "Espécies exóticas (Selecionar formas de eliminar uma espécie exótica (peixe-leão) de...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 92,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Ciclo do carbono (Identificar a importância e o papel dos vegetais no ciclo do carb...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 98,
+        "gabarito": "D",
+        "tematica": "Evolução",
+        "objeto": "Seleção natural (Analisar a atuação da seleção natural no processo evolutivo....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 106,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Espécies exóticas (Analisar as consequências da introdução de espécies exóticas inva...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 109,
+        "gabarito": "D",
+        "tematica": "Cladística",
+        "objeto": "Cladística (Identificar o caractere presente apenas em tartarugas e leopardos...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 117,
+        "gabarito": "A",
+        "tematica": "Ecologia",
+        "objeto": "Fundamentos da Ecologia (Identificar os fundamentos ecológicos tratados em um texto descri...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 120,
+        "gabarito": "B",
+        "tematica": "Ecologia",
+        "objeto": "Relações ecológicas (Analisar o tipo de relação ecológica existente entre a bactéria E...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 132,
+        "gabarito": "D",
+        "tematica": "Composição química dos seres vivos",
+        "objeto": "Carboidratos (Explicar como a taxa de glicose no sangue pode aumentar e causar ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 134,
+        "gabarito": "A",
+        "tematica": "Ecologia",
+        "objeto": "Recuperação de ecossistemas (Mapear meios de recuperação de ecossistemas que emitem muitos pol...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 94,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Recuperação de ecossistemas (Analisar o uso de pellets e briquetes como alternativa energética...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 96,
+        "gabarito": "C",
+        "tematica": "Evolução",
+        "objeto": "Seleção natural (Reconhecer qual tipo de seleção natural favorece o aumento da div...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 102,
+        "gabarito": "D",
+        "tematica": "Ecologia",
+        "objeto": "Biomas brasileiros (Reconhecer as características do Cerrado e associá-las ao desmata...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 108,
+        "gabarito": "A",
+        "tematica": "Sistema digestório",
+        "objeto": "Enzimas digestivas (Analisar a atuação de enzimas na digestão de carboidratos, gordur...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 116,
+        "gabarito": "C",
+        "tematica": "Ecologia",
+        "objeto": "Poluição atmosférica (Analisar qual medida pode ser adotada para diminuir a emissão de ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 124,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Alterações ambientais (Analisar os impactos da retirada da vegetação no solo....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 128,
+        "gabarito": "D",
+        "tematica": "Ecologia",
+        "objeto": "Ciclos biogeoquímicos (Explicar a importância da decomposição no ciclo do carbono....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 95,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Fundamentos (Reconhecer que o conjunto de diferentes espécies de animais corre...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 109,
+        "gabarito": "E",
+        "tematica": "Ecologia",
+        "objeto": "Relações ecológicas (Analisar a situação em que aves se alimentam de carrapatos e outr...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "B2": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 95,
+        "gabarito": "B",
+        "tematica": "Genética",
+        "objeto": "Herança (Identificar o tipo de herança genética das características: cor d...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 103,
+        "gabarito": "E",
+        "tematica": "Genética molecular",
+        "objeto": "Tradução (Analisar os processos de transcrição e tradução após a transgenia...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 108,
+        "gabarito": "B",
+        "tematica": "Biotecnologia",
+        "objeto": "Transgenia (Atribuir o sucesso da biotecnologia de transgenia ao fato de o ge...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 101,
+        "gabarito": "A",
+        "tematica": "Genética molecular",
+        "objeto": "Transcrição (Analisar o processo de transcrição e diferenciar DNA de RNA....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 108,
+        "gabarito": "B",
+        "tematica": "Biotecnologia",
+        "objeto": "PCR e eletroforese (Analisar o resultado de uma eletroforese para determinar quais cl...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 118,
+        "gabarito": "C",
+        "tematica": "Biotecnologia",
+        "objeto": "Células-tronco (Reconhecer a principal caracreítisca das células-tronco pluripote...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 129,
+        "gabarito": "E",
+        "tematica": "Genética",
+        "objeto": "Sistema ABO (Descrever os casos em que ocorre aglutinação do sangue do doador ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 104,
+        "gabarito": "D",
+        "tematica": "Genética",
+        "objeto": "Leis de Mendel (Determinar a probabilidade de um casal com traço talassêmico ter ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 106,
+        "gabarito": "E",
+        "tematica": "Biotecnologia",
+        "objeto": "Técnicas de edição genética (Diferenciar a técnica do CRISPR-Cas9 de transgenia....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 113,
+        "gabarito": "B",
+        "tematica": "Genética molecular",
+        "objeto": "Tradução (Explicar como ocorre a produção da proteína viral no mecanismo de...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 131,
+        "gabarito": "C",
+        "tematica": "Biotecnologia",
+        "objeto": "Silenciamento da expressão gênica (Mapear o que ocorre ao realizar o silenciamento da expressão gêni...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 101,
+        "gabarito": "B",
+        "objeto": "A vacina anti -Rh administrada após o parto tem a função de  neutralizar as hemá...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 103,
+        "gabarito": "B",
+        "objeto": "A cultura bacteriana descrita caracteriza-se como uma suspensão porque suas part...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 106,
+        "gabarito": "E",
+        "objeto": "A imunização ativa ocorre quando o organismo é estimulado a produzir suas própri...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 108,
+        "gabarito": "B",
+        "objeto": "O material mais indicado para neutralizar o vazamento de  ácido sulfônico  é  o...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 114,
+        "gabarito": "B",
+        "objeto": "A adaptação intestinal (tiflossole) em anelídeos  aumenta a área de superfície d...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 119,
+        "gabarito": "C",
+        "objeto": "O processo descrito é a  sucessão ecológica secundária , na qual a comunidade ve...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 120,
+        "gabarito": "D",
+        "objeto": "A coloração esverdeada das plantas ocorre porque  a luz verde é refletida pelas...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 126,
+        "gabarito": "C",
+        "objeto": "A técnica tem como efeito justamente reparar através de uma enzima o material ge...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 127,
+        "gabarito": "E",
+        "objeto": "A técnica descrita usa outro ser vivo para interferir no ciclo reprodutivo da pr...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 129,
+        "gabarito": "E",
+        "objeto": "A pele da tilápia  é rica em colágeno tipo I, com propriedades mecânicas e estru...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 130,
+        "gabarito": "D",
+        "objeto": "Amensalismo ocorre quando uma espécie inibe ou prejudica outra, sem se beneficia...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 108,
+        "gabarito": "C",
+        "objeto": "a) (F) O composto representado na alternativa é o isopropilparabeno, que é dado pela ...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 5",
+        "provider": "SAS",
+        "q_num": 115,
+        "gabarito": "C",
+        "objeto": "a) (F) Armazenar pequenas quantidades de hidrogênio gasoso reduz a autonomia dos veíc...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "SAS/ENEM/2023/5º/RES_2023_5oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 1",
+        "provider": "SAS",
+        "q_num": 106,
+        "gabarito": "D",
+        "objeto": "a) (F) O núcleo contém o material genético da célula eucariótica e é onde ocorre a tr...",
+        "tematica": "Genética, Biologia Molecular e Biotecnologia",
+        "topic_code": "B2",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438818234_2025_RESOLUCAO_1_Simulado_SAS_Enem__1_Serie__2_Dia.pdf"
+      }
+    ],
+    "B3": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 113,
+        "gabarito": "A",
+        "tematica": "Bioenergética",
+        "objeto": "Fotossíntese (Diferenciar as etapas da fotossíntese e relacionar a importância ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 128,
+        "gabarito": "D",
+        "tematica": "Bioenergética",
+        "objeto": "Fotossíntese (Reconhecer a importância da radiação solar para o acontecimento d...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 94,
+        "gabarito": "C",
+        "tematica": "Bioenergética",
+        "objeto": "Fermentação (Analisar o uso de fermentação lática na produção de iogurte....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 97,
+        "gabarito": "C",
+        "tematica": "Citologia",
+        "objeto": "Membrana plasmática (Descrever o processo de osmose que ocorre quando os dedos ficam e...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 115,
+        "gabarito": "E",
+        "tematica": "Citologia",
+        "objeto": "Organelas citoplasmáticas (Analisar a ação do ribossomo nas células....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 123,
+        "gabarito": "C",
+        "tematica": "Citologia",
+        "objeto": "Organelas citoplasmáticas (Compreender a atuação dos íons cálcio no processo de respiração c...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 133,
+        "gabarito": "D",
+        "tematica": "Bioenergética",
+        "objeto": "Fermentação (Associar a produção de etanol e o consumo de açúcar do mel ao pro...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 94,
+        "gabarito": "B",
+        "tematica": "Citologia",
+        "objeto": "Divisão celular (Estabelecer a relação entre o processo de meiose e a fertilidade ...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 97,
+        "gabarito": "A",
+        "tematica": "Bioenergética",
+        "objeto": "Fermentação (Explicar por que a produção de vinagre durante o processo de ferm...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 106,
+        "gabarito": "E",
+        "tematica": "Citologia",
+        "objeto": "Composição química das células (Selecionar a principal consequência da deficiência dos precursore...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 114,
+        "gabarito": "D",
+        "tematica": "Citologia",
+        "objeto": "Membrana plasmática (Estabelecer a relação entre a tonicidade do meio e as característ...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 118,
+        "gabarito": "B",
+        "tematica": "Citologia",
+        "objeto": "Organelas citoplasmáticas (Reconhecer a função das mitocôndrias nas células....)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 132,
+        "gabarito": "D",
+        "tematica": "Bioenergética",
+        "objeto": "Fotossíntese (Associar o processo de fotossíntese ao consumo de CO2 atmosférico...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 102,
+        "gabarito": "A",
+        "tematica": "Citologia",
+        "objeto": "Organelas citoplasmáticas (Reconhecer a organela citoplasmática responsável pela produção de...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 108,
+        "gabarito": "E",
+        "objeto": "a) (F) A célula que utiliza metanol é mais poluente que a de hidrogênio, pois ela lib...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 113,
+        "gabarito": "E",
+        "objeto": "a) (F) A glicólise é uma via metabólica anaeróbica que ocorre no citoplasma das célul...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 115,
+        "gabarito": "B",
+        "objeto": "a) (F) O hormônio responsável pelo alongamento das células caulinares, ou seja, pelo ...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 125,
+        "gabarito": "D",
+        "objeto": "a) (F) A fermentação acética é um processo biológico que transforma o etanol em ácido...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 120,
+        "gabarito": "A",
+        "objeto": "a) (V) O processo I representa a fermentação alcoólica, cuja matéria-prima, no caso a...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 111,
+        "gabarito": "A",
+        "objeto": "a) (V) A abertura dos canais de sódio e a consequente entrada desses íons na célula a...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 109,
+        "gabarito": "A",
+        "objeto": "a) (V) A insulina é um hormônio produzido pelas células beta do pâncreas, localizadas...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 113,
+        "gabarito": "E",
+        "objeto": "a) (F) Não existem células‑tronco que possam atuar na produção de mitocôndrias. Essas...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 108,
+        "gabarito": "E",
+        "objeto": "a) (F) A célula que utiliza metanol é mais poluente que a de hidrogênio, pois ela lib...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 113,
+        "gabarito": "E",
+        "objeto": "a) (F) A glicólise é uma via metabólica anaeróbica que ocorre no citoplasma das célul...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 115,
+        "gabarito": "B",
+        "objeto": "a) (F) O hormônio responsável pelo alongamento das células caulinares, ou seja, pelo ...",
+        "tematica": "Citologia e Metabolismo Energético",
+        "topic_code": "B3",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      }
+    ],
+    "B4": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 96,
+        "gabarito": "D",
+        "tematica": "Parasitologia",
+        "objeto": "Protozooses (Analisar quais providências podem ser aplicadas para evitar a dis...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 123,
+        "gabarito": "C",
+        "tematica": "Fisiologia humana",
+        "objeto": "Imunologia e imunização (Categorizar o tipo de reposta imunitária decorrente da aplicação ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 95,
+        "gabarito": "D",
+        "tematica": "Parasitologia",
+        "objeto": "Viroses (Identificar uma forma de abrandar viroses do sistema respiratório...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 123,
+        "gabarito": "D",
+        "tematica": "Fisiologia humana",
+        "objeto": "Imunidade e imunização (Analisar a atuação dos soros no organismo humano....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 92,
+        "gabarito": "A",
+        "tematica": "Fisiologia humana",
+        "objeto": "Sistema endócrino (Identificar a glândula responsável pela secreção da prolactina, c...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 118,
+        "gabarito": "A",
+        "tematica": "Parasitologia",
+        "objeto": "Verminoses (Identificar uma das verminoses que apresenta bastante vítima e po...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 119,
+        "gabarito": "C",
+        "tematica": "Fisiologia humana",
+        "objeto": "Imunidade e imunização (Explicar a aplicação de vacinas como forma de imunização ativa....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 92,
+        "gabarito": "C",
+        "tematica": "Parasitologia",
+        "objeto": "Verminoses (Identificar uma medida profilática para a ascaridíase....)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 101,
+        "gabarito": "E",
+        "tematica": "Fisiologia humana",
+        "objeto": "Sistema respiratório (Mapear o que é esperado de uma pessoa que está praticando ativida...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 124,
+        "gabarito": "B",
+        "tematica": "Fisiologia humana",
+        "objeto": "Sistema digestório (Estruturar a digestão de gorduras, considerando as enzimas que pa...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 95,
+        "gabarito": "D",
+        "tematica": "Fisiologia humana",
+        "objeto": "Imunologia e imunização (Na produção do soro antiofídico, caracterizar o veneno da cobra i...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 96,
+        "gabarito": "E",
+        "tematica": "Fisiologia humana",
+        "objeto": "Sistema endócrino (Descrever as atividades reguladas pelos hormônios secretados pela...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 121,
+        "gabarito": "A",
+        "tematica": "Fisiologia humana",
+        "objeto": "Imunologia e imunização (Denominar o tipo de resposta promovida pela segunda dose de uma v...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 122,
+        "gabarito": "C",
+        "tematica": "Botânica",
+        "objeto": "Fisiologia vegetal (Selecionar uma característica importante para os vegetais alterad...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 132,
+        "gabarito": "D",
+        "tematica": "Fisiologia humana",
+        "objeto": "Sistema digestório (Deduzir, a partir de um gráfico que apresenta o pH de atuação de ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 118,
+        "gabarito": "A",
+        "objeto": "a) (V) As reações alérgicas às vacinas contra a covid-19 são raras, porém possíveis. ...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 128,
+        "gabarito": "D",
+        "objeto": "a) (F) Higienizar bem os alimentos não é uma medida eficiente contra a malária porque...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 96,
+        "gabarito": "B",
+        "objeto": "a) (F) O hipertireoidismo é uma condição caracterizada pela produção excessiva dos ho...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 91,
+        "gabarito": "D",
+        "objeto": "a) (F) A ingestão da quantidade correta de água durante o dia auxilia no tratamento d...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 102,
+        "gabarito": "C",
+        "objeto": "a) (F) A insulina não é produzida naturalmente por plantas, de forma que esse hormôni...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 105,
+        "gabarito": "A",
+        "objeto": "a) (V) Como é dito no texto, há vacinas específicas que protegem contra certos tipos ...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 119,
+        "gabarito": "C",
+        "objeto": "a) (F) O tamanho diminuto das partículas virais não afeta a eficácia das vacinas. b) ...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 96,
+        "gabarito": "E",
+        "objeto": "a) (F) Por imunidade inata, compreende‑se todas as barreiras físicas, químicas e biol...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 118,
+        "gabarito": "A",
+        "objeto": "a) (V) As reações alérgicas às vacinas contra a covid-19 são raras, porém possíveis. ...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 128,
+        "gabarito": "D",
+        "objeto": "a) (F) Higienizar bem os alimentos não é uma medida eficiente contra a malária porque...",
+        "tematica": "Fisiologia Humana e Imunologia",
+        "topic_code": "B4",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      }
+    ],
+    "F1": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 106,
+        "gabarito": "C",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Potência e energia elétrica (Determinar a potência dissipada por um resistor e determinar a en...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 115,
+        "gabarito": "B",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Associação de resistores (Determinar a resistência equivalente de um circuito com dois resi...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 121,
+        "gabarito": "C",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Geradores (Determinar a corrente que atravessa um circuito com quatro gerado...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 107,
+        "gabarito": "C",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Medidores elétricos (Dimensionar circuitos do cotidiano para determinar a voltagem ind...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 125,
+        "gabarito": "E",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Potência elétrica (Calcular a resistência, a partir da potência, de um aparelho elét...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 127,
+        "gabarito": "E",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Lei de Ohm (Reconhecer a descrição da primeira lei de Ohm em uma poesia....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 93,
+        "gabarito": "C",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Potência elétrica (Calcular a potência elétrica de um aparelho de inalação....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 114,
+        "gabarito": "A",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Associação de resistores (Diferenciar dois circuitos considerando a posição da chave e o br...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 127,
+        "gabarito": "A",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Capacitores (Reconhecer a função dos capacitores em um circuito elétrico....)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 103,
+        "gabarito": "E",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Circuitos (Determinar a resistência equivalente de um circuito considerando ...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 113,
+        "gabarito": "E",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Resistência elétrica (Associar os componentes da brincadeira caneleta, típica de festas...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 126,
+        "gabarito": "D",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Carga elétrica (Determinar a carga elétrica fornecdda por uma bateria portátil co...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 129,
+        "gabarito": "D",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Potência e energia elétrica (Calcular a quantidade de energia elétrica, em kWh, gasta por cinc...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 101,
+        "gabarito": "D",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Circuitos elétricos (Esquematizar um circuito elétrico em que somente algumas lâmpadas...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 106,
+        "gabarito": "E",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Aparelhos de medição (Diferenciar o uso de um multímetro na configuração de amperímetro...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 110,
+        "gabarito": "A",
+        "tematica": "Eletrodinâmica",
+        "objeto": "Potência elétrica (Determinar o consumo mensal de dois aparelhos de ar-condicionado ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 91,
+        "gabarito": "B",
+        "objeto": "Para resolver essa questão é necessário recorrer a lei de Faraday para calcular...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 102,
+        "gabarito": "D",
+        "objeto": "Para resolver essa questão é necessário calcular a potência dissipada pelo circu...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 135,
+        "gabarito": "A",
+        "objeto": "Passo a passo:    Passo 1: Resistência equivalente na figura 1     𝑅𝑒𝑞 =  𝑅 2 +...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 126,
+        "gabarito": "B",
+        "objeto": "a) (F)  A corrente elétrica induzida na bobina está associada a uma diferença de pote...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 5",
+        "provider": "SAS",
+        "q_num": 105,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, calculou-se a média aritmética das resistências dos outros dois...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "SAS/ENEM/2023/5º/RES_2023_5oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 126,
+        "gabarito": "B",
+        "objeto": "a) (F)  A corrente elétrica induzida na bobina está associada a uma diferença de pote...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 1",
+        "provider": "SAS",
+        "q_num": 111,
+        "gabarito": "B",
+        "objeto": "a) (F) Os núcleos atômicos do metal condutor não se movem em seu interior, independen...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438818234_2025_RESOLUCAO_1_Simulado_SAS_Enem__1_Serie__2_Dia.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 2ª Série - Simulado 2",
+        "provider": "SAS",
+        "q_num": 99,
+        "gabarito": "B",
+        "objeto": "a) (F) Possivelmente, o aluno calculou a razão entre as tensões e aplicou a Primeira ...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "SAS/ENEM/2025/2ª SÉRIE/1771439025214_2025_RESOLUCAO_1_Simulado_SAS_Enem__2_Serie__2_Dia.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 3ª Série - Simulado 1",
+        "provider": "SAS",
+        "q_num": 110,
+        "gabarito": "C",
+        "objeto": "a) (F) O ar seco é um isolante elétrico, não um condutor, pois dificulta a passagem d...",
+        "tematica": "Eletrodinâmica e Circuitos Elétricos",
+        "topic_code": "F1",
+        "res_path": "SAS/ENEM/2025/3ª SÉRIE/1º/3ª SÉRIE/2025_RESOLUCAO_1_SAS_ENEM__2_DIA__M1.pdf"
+      }
+    ],
+    "F2": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 98,
+        "gabarito": "B",
+        "tematica": "Cinemática",
+        "objeto": "MHS (Calcular o período de um movimento harmônico simples (MHS) associ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 101,
+        "gabarito": "E",
+        "tematica": "Dinâmica",
+        "objeto": "Conservação de energia (Analisar a perda de energia em uma usina hidrelétrica....)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 102,
+        "gabarito": "A",
+        "tematica": "Física Moderna",
+        "objeto": "Efeito fotoelétrico (Identificar qual característica da radiação eletromagnética garan...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 111,
+        "gabarito": "D",
+        "tematica": "Dinâmica",
+        "objeto": "Leis de Newton (Analisar a lei de Newton utilizada para o movimento de personagen...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 112,
+        "gabarito": "C",
+        "tematica": "Cinemática",
+        "objeto": "Movimento uniformemente variado (Determinar a distância que deve ser instalada uma placa para que ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 117,
+        "gabarito": "B",
+        "tematica": "Cinemática",
+        "objeto": "Gráficos de velocidade em função do tempo (Descrever o movimento de um atleta analisando um gráfico que repr...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 119,
+        "gabarito": "B",
+        "tematica": "Dinâmica",
+        "objeto": "Potência (Calcular a potência de uma usina considerando a energia gerada po...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 127,
+        "gabarito": "C",
+        "tematica": "Cinemática",
+        "objeto": "Velocidade média (Calcular a velocidade média de um ônibus durante uma viagem inter...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 99,
+        "gabarito": "A",
+        "tematica": "Cinemática",
+        "objeto": "Velocidade média (Interpretar um gráfico e calcular o tempo necessário para transpo...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 103,
+        "gabarito": "D",
+        "tematica": "Cinemática",
+        "objeto": "Queda livre (Determinar a velocidade de queda de um corpo em um movimento de q...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 111,
+        "gabarito": "A",
+        "tematica": "Cinemática",
+        "objeto": "Velocidade média (Determinar a velocidade de um automóvel em m/s e compará-la à vel...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 113,
+        "gabarito": "A",
+        "tematica": "Hidrostática",
+        "objeto": "Teorema de Stevin (Avaliar a medição da pressão no fundo de uma piscina em condições...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 116,
+        "gabarito": "B",
+        "tematica": "Termometria",
+        "objeto": "Escalas termométricas (Demonstrar a expressão que relaciona a temperatura na escala Cels...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 133,
+        "gabarito": "B",
+        "tematica": "Dinâmica",
+        "objeto": "Energia (Calcular a energia fornecida por hora pela usina de Asharim....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 99,
+        "gabarito": "D",
+        "tematica": "Dinâmica",
+        "objeto": "Polias (Aplicar a segunda lei de Newton em um sistema com polias para det...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 101,
+        "gabarito": "D",
+        "tematica": "Cinemática",
+        "objeto": "Gráficos do MUV (Analisar gráficos do movimento uniformemente variado para avaliar...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 110,
+        "gabarito": "B",
+        "tematica": "Cinemática",
+        "objeto": "Velocidade média (Determinar o tempo gasto por uma pessoa nas viagens de ida e volt...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 126,
+        "gabarito": "E",
+        "tematica": "Dinâmica",
+        "objeto": "Energia (Calcular a energia consumida por residência, em kWh, considerando...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 129,
+        "gabarito": "C",
+        "tematica": "Cinemática",
+        "objeto": "Lançamento oblíquo (Calcular a altura máxima da cesta de basquete segurada pelo Anjin...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 131,
+        "gabarito": "C",
+        "tematica": "Gravitação",
+        "objeto": "Força gravitacional (Explicar a atração entre a Lua e a Terra utilizando a força gravi...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 134,
+        "gabarito": "B",
+        "tematica": "Dinâmica",
+        "objeto": "Força elástica (Determinar a constante elástica de uma thera-band utilizada para ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 91,
+        "gabarito": "E",
+        "tematica": "Termometria",
+        "objeto": "Escalas termométricas (Deduzir a escala termométrica utilizada em uma canção comparando ...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 104,
+        "gabarito": "D",
+        "tematica": "Cinemática",
+        "objeto": "Lançamento oblíquo (Determinar a velocidade inicial do lançamento oblíquo de uma bola...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 107,
+        "gabarito": "A",
+        "tematica": "Cinemática",
+        "objeto": "Análise gráfica (Considerando o gráfico de espaço em função do tempo, determinar a...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 110,
+        "gabarito": "C",
+        "tematica": "Cinemática",
+        "objeto": "Movimento uniformemente variado (Demonstrar o desempenho de um carrinho de brinquedo durante um te...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "F3": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 92,
+        "gabarito": "E",
+        "tematica": "Ondulatória",
+        "objeto": "Fenômenos ondulatórios (Identificar o fenômeno ondulatório responsável por dificultar a p...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 133,
+        "gabarito": "C",
+        "tematica": "Ondulatória",
+        "objeto": "Ondas eletromagnéticas (Analisar como o micro-ondas interfere na passagem do sinal de WiF...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 102,
+        "gabarito": "E",
+        "tematica": "Ondulatória",
+        "objeto": "Interferência (Identificar o fenômeno ondulatório relacionado à tecnologia de ca...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 114,
+        "gabarito": "D",
+        "tematica": "Óptica geométrica",
+        "objeto": "Conceitos básicos (Identificar os conceitos básicos da óptica geométria descritos em...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 122,
+        "gabarito": "A",
+        "tematica": "Óptica geométrica",
+        "objeto": "Óptica da visão: miopia (Identificar a anomalia da visão e como corrigi-la....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 95,
+        "gabarito": "B",
+        "tematica": "Óptica geométrica",
+        "objeto": "Refração da luz (Identificar o fenômeno óptico que explica as diferentes cores do ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 111,
+        "gabarito": "D",
+        "tematica": "Ondulatória",
+        "objeto": "Equação fundamental (Considerando um experimento utilizando um aparelho micro-ondas, a...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 117,
+        "gabarito": "B",
+        "tematica": "Óptica",
+        "objeto": "Espectro eletromagnético (Aplicar a lei de Wien, que associa o comprimento de onda máximo d...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 122,
+        "gabarito": "E",
+        "tematica": "Ondulatória",
+        "objeto": "Acústica (Interpretar um gráfico que indica a frequência do som e saber con...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 93,
+        "gabarito": "B",
+        "tematica": "Óptica geométrica",
+        "objeto": "Refração da luz (Determinar o ângulo de refração que um raio de luz faz com a norm...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 107,
+        "gabarito": "D",
+        "tematica": "Óptica geométrica",
+        "objeto": "Óptica da visão (Constrastar o uso de lentes por uma pessoa com hipermetropia e po...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 119,
+        "gabarito": "C",
+        "tematica": "Óptica geométrica",
+        "objeto": "Fenômenos ópticos (Descrever como ocorre a decomposição da luz branca ao passar por ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 128,
+        "gabarito": "A",
+        "tematica": "Ondulatória",
+        "objeto": "Interferência (Explicar o que acontece com duas ondas que sofrem interferência c...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 134,
+        "gabarito": "C",
+        "tematica": "Ondulatória",
+        "objeto": "Equação fundamental (Determinar o menor comprimento de onda da tecnologia 5G que foi l...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 94,
+        "gabarito": "B",
+        "objeto": "Na síntese proteica, O DNA é transcrito em mRNA no núcleo e após processamento é...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 98,
+        "gabarito": "C",
+        "objeto": "Para resolver essa questão é necessário comparar o valor da frequência fundament...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 100,
+        "gabarito": "B",
+        "objeto": "Um espelho plano forma imagens virtuais, direitas e simétricas em relação ao esp...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 115,
+        "gabarito": "C",
+        "objeto": "O fenômeno descrito é a dispersão, caracterizada pela separação de uma onda em s...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 125,
+        "gabarito": "C",
+        "objeto": "A diferença perceptível entre sons com mesma frequência (nota musical) e mesma...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 92,
+        "gabarito": "C",
+        "objeto": "a) (F)  Possivelmente, considerou-se como resposta o comprimento da onda utilizada pa...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 100,
+        "gabarito": "C",
+        "objeto": "a) (F) Os ribossomos são as estruturas responsáveis pela síntese de proteínas, e a tr...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 119,
+        "gabarito": "B",
+        "objeto": "a) (F) Possivelmente, considerou-se o valor do comprimento de onda das micro-ondas: /...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 127,
+        "gabarito": "D",
+        "objeto": "a) (F) As células-tronco humanas são diploides, ou seja, apresentam os dois conjuntos...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 95,
+        "gabarito": "D",
+        "objeto": "a) (F) A fase de uma onda está diretamente relacionada às interferências construtivas...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 100,
+        "gabarito": "B",
+        "objeto": "a) (F) Possivelmente, considerou-se que a resistência equivalente é dada pela soma da...",
+        "tematica": "Ondulatória e Acústica",
+        "topic_code": "F3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      }
+    ],
+    "F4": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 126,
+        "gabarito": "E",
+        "tematica": "Transmissão de calor",
+        "objeto": "Condução (Reconhecer como uma roupa troca calor e protege o trabalhador gar...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 130,
+        "gabarito": "B",
+        "tematica": "Térmica",
+        "objeto": "Irradiação térmica (Identificar a relação entre o processo de irradiação térmica com ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 93,
+        "gabarito": "B",
+        "tematica": "Calorimetria",
+        "objeto": "Calor sensível (Determinar a quantidade de calor envolvida na transformação do me...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 135,
+        "gabarito": "C",
+        "tematica": "Termodinâmica",
+        "objeto": "Transformações gasosas (Identificar a transformação gasosa que ocorre nos sprays....)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 113,
+        "gabarito": "E",
+        "tematica": "Transmissão de calor",
+        "objeto": "Condução (Reconhecer a descrição do processo de transferência de calor por ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 120,
+        "gabarito": "B",
+        "tematica": "Calorimetria",
+        "objeto": "Calor específico (Explicar o motivo de a areia ficar mais quente que a água do mar ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 96,
+        "gabarito": "C",
+        "tematica": "Transmissão de calor",
+        "objeto": "Condução térmica (Explicar a diferença no processo de descongelamento de um aliment...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 99,
+        "gabarito": "A",
+        "tematica": "Termodinâmica",
+        "objeto": "Gases (Aplicar a equação de Clapeyron para calcular a temperatura do gás...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 112,
+        "gabarito": "C",
+        "tematica": "Calorimetria",
+        "objeto": "Calor sensível (Realizar a comparação entre o gasto energético de uma pessoa de 7...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 108,
+        "gabarito": "C",
+        "tematica": "Transmissão de calor",
+        "objeto": "Condução (Explicar o motivo de um bloco de metal ficar mais frio que um blo...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 110,
+        "gabarito": "E",
+        "objeto": "O maior aquecimento do tecido preto ocorre devido à  alta absorção da luz, com...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 113,
+        "gabarito": "B",
+        "objeto": "A perda de rigidez das folhas ocorre devido à obstrução do  xilema, tecido respo...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 117,
+        "gabarito": "B",
+        "objeto": "Aplicamos a Lei de Fourier para condução térmica:  𝜙 =  𝑘 ⋅ 𝐴 ⋅ Δ𝑇 𝑑   onde:  •...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 123,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, com base no fenômeno da dilatação térmica, considerou-se que a ...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 93,
+        "gabarito": "B",
+        "objeto": "a) (F) Ao se realizar os cálculos, apenas multiplicou-se os valores do poder calorífi...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 111,
+        "gabarito": "D",
+        "objeto": "a) (F) O papel do condensador é facilitar as trocas de calor, e não otimizar o isolam...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 117,
+        "gabarito": "C",
+        "objeto": "a) (F) Os enantiômeros apresentam as mesmas propriedades físico-químicas, por isso su...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 96,
+        "gabarito": "E",
+        "objeto": "a) (F) Ao considerar que bastaria fazer o cálculo da variação do volume inserindo a m...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 115,
+        "gabarito": "C",
+        "objeto": "a) (F) A presença de barragens não leva ao aumento da temperatura no entorno de onde ...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/3º/RES_2023_3oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 94,
+        "gabarito": "E",
+        "objeto": "a) (F) Possivelmente, calculou‑se o calor sensível (Q) em vez do fluxo (φ) e atribuiu...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 5",
+        "provider": "SAS",
+        "q_num": 120,
+        "gabarito": "E",
+        "objeto": "a) (F) Armazenar alimentos à temperatura ambiente pode favorecer a multiplicação de b...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/5º/RES_2023_5oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 123,
+        "gabarito": "C",
+        "objeto": "a) (F) Possivelmente, com base no fenômeno da dilatação térmica, considerou-se que a ...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 1",
+        "provider": "SAS",
+        "q_num": 125,
+        "gabarito": "B",
+        "objeto": "a) (F) O aluno deve ter utilizado a equação da dilatação térmica superficial em vez d...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438818234_2025_RESOLUCAO_1_Simulado_SAS_Enem__1_Serie__2_Dia.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 2",
+        "provider": "SAS",
+        "q_num": 107,
+        "gabarito": "E",
+        "objeto": "a) (F) Na curva I, a primeira zona rural apresenta temperatura mais elevada que a zon...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438817994_2025_RESOLUCAO_2_Simulado_SAS_Enem__2_Dia__1_Serie.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 2",
+        "provider": "SAS",
+        "q_num": 114,
+        "gabarito": "E",
+        "objeto": "a) (F) Possivelmente, calculou-se o calor sensível (Q) em vez do fluxo (φ) e atribuiu...",
+        "tematica": "Termologia e Termodinâmica",
+        "topic_code": "F4",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438817994_2025_RESOLUCAO_2_Simulado_SAS_Enem__2_Dia__1_Serie.pdf"
+      }
+    ],
+    "Q1": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 91,
+        "gabarito": "C",
+        "tematica": "Equilíbrio químico",
+        "objeto": "Princípio de Le Chatelier (Aplicar o princípio de Le Chatelier para identificar como a sínte...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 94,
+        "gabarito": "E",
+        "tematica": "Equilíbrio iônico",
+        "objeto": "Indicadores de pH (Analisar qual indicador de pH é recomendado para indicar o pH da ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 105,
+        "gabarito": "B",
+        "tematica": "Soluções",
+        "objeto": "Diluição (Determinar, por meio de cálculos de dilução, qual indústria liber...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 120,
+        "gabarito": "E",
+        "tematica": "Eletroquímica",
+        "objeto": "Eletrólise (Concluir, a partir da descrição de cada etapa da reciclagem de ba...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 134,
+        "gabarito": "D",
+        "tematica": "Cinética química",
+        "objeto": "Catalisadores (Explicar a atuação do cobalto e da vitamina B12 nas reações quími...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 104,
+        "gabarito": "E",
+        "tematica": "Equilíbrio químico",
+        "objeto": "Princípio de Le Chatelier (Aplicar o princípio de Le Chatelier para identificar uma reação q...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 110,
+        "gabarito": "B",
+        "tematica": "Termoquímica",
+        "objeto": "Entalpia de formação (Calcular a variação de entalpia de uma reção a partir das entalpi...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 124,
+        "gabarito": "C",
+        "tematica": "Soluções",
+        "objeto": "Cálculo de concentração (Calcular a concentração de soluções em g/L para determinar qual s...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 126,
+        "gabarito": "C",
+        "tematica": "Cinética química",
+        "objeto": "Fatores que alteram a velocidade da reação (Selecionar um processo cotidiano que justifica a regra de Van't H...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 103,
+        "gabarito": "A",
+        "tematica": "Termoquímica",
+        "objeto": "Lei de Hess (Aplicar a lei de Hess para determinar a variação da entalpia da r...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 105,
+        "gabarito": "B",
+        "tematica": "Equilíbrio iônico",
+        "objeto": "pH (Selecionar a etapa de tratamento de resíduos que deve verificar o...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 107,
+        "gabarito": "C",
+        "tematica": "Soluções",
+        "objeto": "Diluição (Determinar a concentração de nitrato após a diluição do esgoto de...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 112,
+        "gabarito": "C",
+        "tematica": "Eletroquímica",
+        "objeto": "Potencial-padrão de uma pila (Determinar o número de pilhas de limão necessárias para substitui...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 121,
+        "gabarito": "D",
+        "tematica": "Equilíbrio iônico",
+        "objeto": "pH e pOH (Diferenciar solos ácidos e básicos e sua utilização para a planta...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 130,
+        "gabarito": "B",
+        "tematica": "Eletroquímica",
+        "objeto": "Células a combustível (Deduzir, a partir das meia-reações que ocorrem em uma célula a co...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 135,
+        "gabarito": "E",
+        "tematica": "Cinética química",
+        "objeto": "Fatores que alteram a velocidade de reações (Discriminar os fármacos considerando a rota reacional energeticam...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 98,
+        "gabarito": "C",
+        "tematica": "Termoquímica",
+        "objeto": "Processos endotérmicos e exotérmicos (Analisar o tipo de processo (endotérmico ou exotérmico) que ocorr...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 108,
+        "gabarito": "E",
+        "tematica": "Equilíbrio químico",
+        "objeto": "Princípio de Le Chatelier (Descrever um processo que faz com que bebidas gaseificadas percam...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 111,
+        "gabarito": "D",
+        "tematica": "Soluções",
+        "objeto": "Tipos de concentração (Determinar a massa pesada de um antibiótico para preparar uma sol...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 120,
+        "gabarito": "A",
+        "tematica": "Cinética química",
+        "objeto": "Fatores que alteram a velocidade das reações (Justificar o uso de catalisadores como uma alternativa para dimin...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 123,
+        "gabarito": "A",
+        "tematica": "Equilíbrio iônico",
+        "objeto": "pH (Associar a coloração de uma solução de repolho roxo ao seu pH e a...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 98,
+        "gabarito": "A",
+        "tematica": "Equilíbrio químico",
+        "objeto": "Princípio de Le Chatelier (Analisar o equilíbrio químico no organismo humano de formação da ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 104,
+        "gabarito": "A",
+        "tematica": "Equilíbrio iônico",
+        "objeto": "Hidrólise de sais (Verificar qual substância pode ser utilizada para evitar a formaç...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 126,
+        "gabarito": "A",
+        "tematica": "Soluções",
+        "objeto": "Soluções (Calcular a massa de fluoreto de sódio necessária para fluoretar a...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 129,
+        "gabarito": "C",
+        "tematica": "Equilíbrio iônico",
+        "objeto": "pH e pOH (Determinar a concentração de íons H+ presentes na água com pH = 4...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "Q2": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 97,
+        "gabarito": "C",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Análise imediata (Reconhecer a etapa da separação da mistura de álcool e gasolina e...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 107,
+        "gabarito": "E",
+        "tematica": "Ligações químicas",
+        "objeto": "Forças intermoleculares (Classificar uma fase aquosa em relação à polaridade e identificar...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 116,
+        "gabarito": "D",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Análise imediata (Reconhecer quais etapas da obtenção de etanol são processos físic...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 125,
+        "gabarito": "D",
+        "tematica": "Estequiometria",
+        "objeto": "Cálculos estequiométricos (Determinar a massa de sólido formado pela reação de precipitação ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 135,
+        "gabarito": "E",
+        "tematica": "Ligações químicas",
+        "objeto": "Ligação covalente (Associar as propriedades de um polímero microporoso conjugado à e...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 91,
+        "gabarito": "A",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Substâncias puras e misturas (Explicar o porquê uma cápsula de ômega-3, que é uma mistura, não ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 105,
+        "gabarito": "B",
+        "tematica": "Ligações químicas",
+        "objeto": "Interações intermoleculares (Analisar o uso de sal de cozinha no processo de separação por dis...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 112,
+        "gabarito": "D",
+        "tematica": "Teoria atômico-molecular",
+        "objeto": "Mol (Determinar a perda molar (razão entre a quantidade de matéria de ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 119,
+        "gabarito": "D",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Curvas de aquecimento (Classificar um solvente como substância pura ou mistura analisand...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 121,
+        "gabarito": "E",
+        "tematica": "Ligações químicas",
+        "objeto": "Ligação metálica (Descrever as características do ouro roxo, um composto formado po...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 128,
+        "gabarito": "A",
+        "tematica": "Estequiometria",
+        "objeto": "Cálculo estequiométrico (Realizar cálculos estequiométricos considerando rendimento e pure...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 131,
+        "gabarito": "C",
+        "tematica": "Ligações químicas",
+        "objeto": "Interações intermoleculares (Diferenciar e identificar os tipos de forças intermoleculares exi...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 91,
+        "gabarito": "D",
+        "tematica": "Radioatividade",
+        "objeto": "Transmutações (Descrever como o decaimento de isótopos radioativos pode ser util...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 98,
+        "gabarito": "B",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Análise imediata (Determinar os processos de separação de misturas necessários em u...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 100,
+        "gabarito": "B",
+        "tematica": "Ligações químicas",
+        "objeto": "Ligação covalente (Identificar o tipo de ligação que é quebrada nas moléculas de hid...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 125,
+        "gabarito": "B",
+        "tematica": "Radioatividade",
+        "objeto": "Meia-vida (Calcular o período de meia-vida do Pu-239, um dos nuclídeos prese...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 132,
+        "gabarito": "A",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Análise imediata (Escolher o método de separação de misturas que pode ser aplicado ...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 105,
+        "gabarito": "A",
+        "tematica": "Propriedade física das substâncias",
+        "objeto": "Tensão superficial (Analisar a formação de gotas de água no espaço devido à alta tens...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 116,
+        "gabarito": "A",
+        "tematica": "Gases",
+        "objeto": "Transformações gasosas (Descrever o tipo de transformação gasosa que ocorre no conta-gota...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 121,
+        "gabarito": "B",
+        "tematica": "Substâncias e misturas",
+        "objeto": "Análise imediata (Nomear o método de separação de misturas que pode ser aplicado pa...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 125,
+        "gabarito": "C",
+        "tematica": "Estequiometria",
+        "objeto": "Cálculo estequiométrico (Realizar cálculos estequiométricos considerando uma reação com 10...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 128,
+        "gabarito": "B",
+        "tematica": "Ligações químicas",
+        "objeto": "Forças intermoleculares (Explicar o motivo de a retirada de íons da água ser dificultosa c...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 94,
+        "gabarito": "E",
+        "tematica": "Radioatividade",
+        "objeto": "Emissões (Diferenciar partículas alfa e beta em relação à massa e seu poder...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 112,
+        "gabarito": "E",
+        "tematica": "Ligações químicas",
+        "objeto": "Forças intermoleculares (Atribuir o resultado do teste da proveta para avaliar a qualidade...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 115,
+        "gabarito": "A",
+        "tematica": "Ligações químicas",
+        "objeto": "Ligações iônicas (Identificar o tipo de ligação que ocorre entre compostos que são ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      }
+    ],
+    "Q3": [
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 100,
+        "gabarito": "A",
+        "tematica": "Química orgânica",
+        "objeto": "Cadeias carbônicas (Reconhecer uma xantofila, carotenoide de cadeia mista insaturada ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 104,
+        "gabarito": "A",
+        "tematica": "Química orgânica",
+        "objeto": "Reações orgânicas (Classificar as reações orgânicas para a formação de ácido L-málic...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 109,
+        "gabarito": "E",
+        "tematica": "Química orgânica",
+        "objeto": "Funções orgânicas (Identificar a função orgânica oxigenada em compostos precursores ...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 110,
+        "gabarito": "B",
+        "tematica": "Química Orgânica",
+        "objeto": "Propriedades físicas dos compostos orgânicos (Identificar a relação entre a variação da viscosidade de hidrocar...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "1º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 114,
+        "gabarito": "D",
+        "tematica": "Reações inorgânicas",
+        "objeto": "Reações inorgânicas (Identificar o tipo de reação inorgânica que ocorre entre gás clor...)",
+        "res_path": "POLIEDRO/2024/1º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 96,
+        "gabarito": "B",
+        "tematica": "Funções inorgânicas",
+        "objeto": "Óxidos (Identificar a relação do uso de óxidos como forma de conter vazam...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 100,
+        "gabarito": "C",
+        "tematica": "Química Orgânica",
+        "objeto": "Alcenos (Identificar um composto que é um alceno que reagiria no teste de ...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 130,
+        "gabarito": "B",
+        "tematica": "Química Orgânica",
+        "objeto": "Classificação do carbono em uma cadeia orgânica (Identificar a presença de carbonos sp e sp2 em uma estrutura quím...)",
+        "res_path": "POLIEDRO/2024/2º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 97,
+        "gabarito": "A",
+        "tematica": "Química Orgânica",
+        "objeto": "Propriedades de compostos orgânicos (Escolher o composto orgânico que apresenta maior flexibilidade na...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 109,
+        "gabarito": "E",
+        "tematica": "Química Orgânica",
+        "objeto": "Compostos oxigenados (Nomear o ácido propiônico seguindo a nomenclatura substitutiva da...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "3º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 115,
+        "gabarito": "E",
+        "tematica": "Química Orgânica",
+        "objeto": "Reações orgânicas (Nomear a reação que ocorre durante a transformação de benzeno a c...)",
+        "res_path": "POLIEDRO/2024/3º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 100,
+        "gabarito": "D",
+        "tematica": "Química orgânica",
+        "objeto": "Funções orgânicas (Identificar a função orgânica oxigenada que sofre a reação de Tol...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 102,
+        "gabarito": "A",
+        "tematica": "Química orgânica",
+        "objeto": "Isomeria (Identificar o tipo de isomeria que ocorre no oxalato de escitalop...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 131,
+        "gabarito": "A",
+        "tematica": "Funções inorgânicas",
+        "objeto": "Óxidos (Associar o caráter dos óxidos de enxofre e de nitrogênio aos prob...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "4º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 133,
+        "gabarito": "B",
+        "tematica": "Química orgânica",
+        "objeto": "Classificação do carbono (Descrever as características dos carbonos envolvidos nas ligações...)",
+        "res_path": "POLIEDRO/2024/4º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 99,
+        "gabarito": "D",
+        "tematica": "Reações inorgânicas",
+        "objeto": "Reações inorgânicas (Deduzir a reação de inativação do sódio metálico que ocorre no ai...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 116,
+        "gabarito": "E",
+        "tematica": "Química orgânica",
+        "objeto": "Funções e reações orgânicas (Descrever a reação que ocorre no teste de Baeyer realizado com a ...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 118,
+        "gabarito": "B",
+        "tematica": "Química orgânica",
+        "objeto": "Propriedades de compostos orgânicos: solubilidade (Identificar uma vitamina que é hidrossolúvel considerando a prese...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "5º Simulado Enem 2024",
+        "provider": "Poliedro",
+        "q_num": 120,
+        "gabarito": "B",
+        "tematica": "Química orgânica",
+        "objeto": "Introdução à Química Orgânica (Discriminar as estruturas das duas formas da vitamina D considera...)",
+        "res_path": "POLIEDRO/2024/5º Simulado Enem 2024 - 2º Dia - Resolução.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 93,
+        "gabarito": "B",
+        "objeto": "A toxoplasmose é uma infecção causada pelo protozoário Toxoplasma gondii. Sua  t...",
+        "tematica": "Química Orgânica",
+        "topic_code": "Q3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 128,
+        "gabarito": "E",
+        "objeto": "A célula descrita — alongada, com núcleo oval , que sintetiza fibras e matriz  e...",
+        "tematica": "Química Orgânica",
+        "topic_code": "Q3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 133,
+        "gabarito": "E",
+        "objeto": "O biodiesel é obtido por uma reação entre triglicerídeos (óleos/gorduras) e um á...",
+        "tematica": "Química Orgânica",
+        "topic_code": "Q3",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 114,
+        "gabarito": "E",
+        "objeto": "a) (F) Possivelmente, considerou-se a reação de formação do polímero, a qual de fato ...",
+        "tematica": "Química Orgânica",
+        "topic_code": "Q3",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 101,
+        "gabarito": "A",
+        "objeto": "a) (V) O polipropileno é um polímero de adição formado a partir do propeno, ou propil...",
+        "tematica": "Química Orgânica",
+        "topic_code": "Q3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 127,
+        "gabarito": "A",
+        "objeto": "a) (V) Os HPAs são hidrocarbonetos, logo, apresentam cadeia altamente apolar e, conse...",
+        "tematica": "Química Orgânica",
+        "topic_code": "Q3",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      }
+    ],
+    "Q4": [
+      {
+        "simulado": "2º Simulado Apeiron 2026 Dia 2",
+        "provider": "Apeiron",
+        "q_num": 104,
+        "gabarito": "B",
+        "objeto": "Dióxido de enxofre  (SO₂) e óxidos de nitrogênios  (NOₓ) são óxidos que atuam  d...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "APEIRON-20261110T152018Z-1-001/APEIRON/2º/A2GCD2 (Oficial)-1.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 1",
+        "provider": "SAS",
+        "q_num": 102,
+        "gabarito": "B",
+        "objeto": "a) (F) Possivelmente, identificou-se que o impacto ambiental diz respeito à chuva áci...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2023/2023SASENEM6DIA2gabarito.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 92,
+        "gabarito": "A",
+        "objeto": "a) (V) A cloração é um tipo de reação de substituição denominada halogenação, na qual...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2023/2º/RES_2023_2oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 124,
+        "gabarito": "A",
+        "objeto": "a) (V) Comumente a chuva ácida está relacionada às atividades industriais, sendo cara...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 132,
+        "gabarito": "C",
+        "objeto": "a) (F) O aumento da temperatura está relacionado com o efeito estufa e é provocado pe...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2023/4º/2023_4oENEM_2oDIA_CN_MT_RES.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 5",
+        "provider": "SAS",
+        "q_num": 116,
+        "gabarito": "C",
+        "objeto": "a) (F) As hepatites virais devem ser levadas em consideração quando falta tratamento ...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2023/5º/RES_2023_5oENEM_2oDIA.pdf"
+      },
+      {
+        "simulado": "ENEM - 2023 - EM - Simulado 6",
+        "provider": "SAS",
+        "q_num": 102,
+        "gabarito": "B",
+        "objeto": "a) (F) Possivelmente, identificou-se que o impacto ambiental diz respeito à chuva áci...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2023/6º/02_2023_6oENEM_2oDIA_PORTAL_RESOLUCAO.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 1",
+        "provider": "SAS",
+        "q_num": 112,
+        "gabarito": "A",
+        "objeto": "a) (V) Comumente a chuva ácida está relacionada às atividades industriais, sendo cara...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438818234_2025_RESOLUCAO_1_Simulado_SAS_Enem__1_Serie__2_Dia.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 1ª Série - Simulado 2",
+        "provider": "SAS",
+        "q_num": 130,
+        "gabarito": "D",
+        "objeto": "a) (F) A queima de biocombustíveis libera uma quantidade de gases do efeito estufa me...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2025/1ª SÉRIE/1771438817994_2025_RESOLUCAO_2_Simulado_SAS_Enem__2_Dia__1_Serie.pdf"
+      },
+      {
+        "simulado": "ENEM - 2025 - 2ª Série - Simulado 2",
+        "provider": "SAS",
+        "q_num": 103,
+        "gabarito": "A",
+        "objeto": "a) (V) A cloração é um tipo de reação de substituição denominada halogenação, na qual...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2025/2ª SÉRIE/1771439025214_2025_RESOLUCAO_1_Simulado_SAS_Enem__2_Serie__2_Dia.pdf"
+      },
+      {
+        "simulado": "ENEM - 2026 - EM - Simulado 2",
+        "provider": "SAS",
+        "q_num": 91,
+        "gabarito": "Comentada",
+        "objeto": "Em 1985, identificou-se que os responsáveis pela degradação da camada de ozônio eram ...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2026/2º/PROVAS SAS II/2º dia/[PROVA] 2º Simulado SAS ENEM - 2º Dia - M1_20-05-2026_09h23min.pdf"
+      },
+      {
+        "simulado": "ENEM - 2026 - EM - Simulado 3",
+        "provider": "SAS",
+        "q_num": 103,
+        "gabarito": "Comentada",
+        "objeto": "Um método comum para desinfecção de águas em piscinas  e grandes reservatórios é a su...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2026/3º/PROVAS/2º dia/[PROVA] 3º Simulado SAS ENEM - 2º Dia - M1_16-06-2026_15h46min.pdf"
+      },
+      {
+        "simulado": "ENEM - 2026 - EM - Simulado 4",
+        "provider": "SAS",
+        "q_num": 104,
+        "gabarito": "Comentada",
+        "objeto": "104.   Gabarito: B C 3 H 12 a) INCORRETA. A chuva ácida resulta da emissão de poluent...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "SAS/ENEM/2026/4°/2º dia/[RESOLUÇÃO] 4º Simulado SAS Enem - 2º Dia - M1_25-08-2026_06h56min.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2019 Simulado 1 Dia 2",
+        "provider": "Bernoulli",
+        "q_num": 107,
+        "gabarito": "Comentada",
+        "objeto": "Um técnico de laboratório em Química realizou, em  sistema fechado, a queima de duas ...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2019/1º conjunto/Simulado_Enem_2019_Gabarito_e_Questoes_comentadas_Prova_II.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2019 Simulado 1 Dia 2",
+        "provider": "Bernoulli",
+        "q_num": 109,
+        "gabarito": "Comentada",
+        "objeto": "As estações de tratamento de água (ETA) usam filtros e  vários produtos químicos na l...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2019/1º conjunto/Simulado_Enem_2019_Gabarito_e_Questoes_comentadas_Prova_II.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2019_1º conjunto",
+        "provider": "Bernoulli",
+        "q_num": 109,
+        "gabarito": "Comentada",
+        "objeto": "As estações de tratamento de água (ETA) usam filtros e  vários produtos químicos na l...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2019/1º conjunto/Simulado_Enem_2019_Gabarito_e_Questoes_comentadas_Prova_II.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2019_6º conjunto",
+        "provider": "Bernoulli",
+        "q_num": 114,
+        "gabarito": "Comentada",
+        "objeto": "Nas estações de tratamento de água, o odor desagradável  da água a ser tratada, que o...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2019/6º conjunto/Simulado_ENEM_2019_Gabarito_e_Questcoes_comentadas_Prova_II.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2020_6º",
+        "provider": "Bernoulli",
+        "q_num": 92,
+        "gabarito": "Comentada",
+        "objeto": "Em 1928, os clorofluorcarbonos (CFCs) foram  sintetizados nos EUA e fizeram grande su...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2020/6º/SIMULADO 6 - 2020 - BERNOULLI.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2020_8º",
+        "provider": "Bernoulli",
+        "q_num": 110,
+        "gabarito": "Comentada",
+        "objeto": "A queima de combustíveis que contêm enxofre libera,  juntamente com outros gases, dió...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2020/8º/SIMULADO 8 - 2020 - BERNOULLI.pdf"
+      },
+      {
+        "simulado": "Bernoulli 2022_1º",
+        "provider": "Bernoulli",
+        "q_num": 100,
+        "gabarito": "Comentada",
+        "objeto": "O tratamento convencional da água é composto das  seguintes etapas: I. Coagulação e f...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2022/1º/RESOLUÇÃO 2° DIA (1° BERNOULLI 2022).pdf"
+      },
+      {
+        "simulado": "Bernoulli 2022_3º",
+        "provider": "Bernoulli",
+        "q_num": 127,
+        "gabarito": "Comentada",
+        "objeto": "Crédito de carbono é um conceito, surgido a partir do  Protocolo de Kyoto em 1997, qu...",
+        "tematica": "Química Ambiental",
+        "topic_code": "Q4",
+        "res_path": "BERNOULLI-20261110T151947Z-1-001/BERNOULLI/2022/3º/GABARITO 3 BERNOULLI 2022 DIA 2.pdf"
+      }
+    ]
+  }
+}

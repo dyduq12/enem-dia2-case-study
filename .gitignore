@@ -1,0 +1,153 @@
+# ==========================================
+# ENEM DIA 2 Analytics - Git Ignore Configuration
+# ==========================================
+
+# 1. Large Raw Data Banks & Exam Booklets (~5.56 GB)
+APEIRON-*
+BERNOULLI-*
+ENEM/
+POLIEDRO/
+SAS/
+_ENEM_DIA_2_BRUTO/
+_SIMULADOS_RAIZ/
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# 2. Intermediate Mining Dumps & Raw Text Extracts
+data/intermediate/
+*.dump
+*.raw
+
+# 3. Agent Session Memory & Internal History
+.agents/
+.vscode/
+.agents-storage
+
+# 4. Environment & Secrets (Keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# 5. Python & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+env/
+ENV/
+
+# 6. IDE & Editor Artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# 7. Operating System Artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# 8. Temporary Logs
+*.log
+
+# 1. Large Raw Data Banks & Exam Booklets (~5.56 GB)
+APEIRON-*
+BERNOULLI-*
+ENEM/
+POLIEDRO/
+SAS/
+_ENEM_DIA_2_BRUTO/
+_SIMULADOS_RAIZ/
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# 2. Intermediate Mining Dumps & Raw Text Extracts
+data/intermediate/
+*.dump
+*.raw
+
+# 3. Agent Session Memory & Internal History
+.agents/
+
+# 4. Environment & Secrets (Keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# 5. Python & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+env/
+ENV/
+
+# 6. IDE & Editor Artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# 7. Operating System Artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# 8. Temporary Logs
+*.log
